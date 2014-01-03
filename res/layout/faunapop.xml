@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+	    android:id="@+id/fpl"
+	    android:orientation="vertical"
+	    android:padding="10dip"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@color/blacktran">
+	    <LinearLayout
+	    	android:id="@+id/topfpl"
+	    	android:orientation="horizontal"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:gravity="center_horizontal"
+	    >
+	    	
+		    <ImageView
+		        android:id="@+id/profile"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content" />
+		    <LinearLayout
+		        android:orientation="vertical"
+		        android:layout_width="fill_parent" 
+		        android:layout_height="wrap_content"
+		        android:gravity="top|right">
+		        
+			     <Button
+			        android:id="@+id/dismiss"
+			        android:layout_width="38dp"
+			        android:layout_height="wrap_content"
+			        android:background="@drawable/disbut"
+			        android:text="Back"
+			        android:textColor="#AAFFFFFF" />
+		     </LinearLayout>
+		     
+	    </LinearLayout>
+	    <TextView
+	        android:id="@+id/name"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+	
+	    <TextView
+	        android:id="@+id/live"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+	     
+	    <ImageView
+	        android:id="@+id/spread"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+	
+	    <TextView
+	        android:id="@+id/eat"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+	      <TextView
+	        android:id="@+id/size"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+	
+	    <TextView
+	        android:id="@+id/lifespan"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+	    
+	    <TextView
+	        android:id="@+id/relatives"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/wildcolour"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="40dip"
+        android:text="@string/wildtext"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/faunaButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:drawableLeft="@drawable/faunaic"
+        android:drawablePadding="40dip"
+        android:paddingTop="50dip"
+        android:text="@string/Fauna"
+        android:textColor="@color/black"
+        android:textSize="@dimen/bts" />
+
+    <Button
+        android:id="@+id/floraButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:drawableLeft="@drawable/floraic"
+        android:drawablePadding="60dip"
+        android:text="@string/Flora"
+        android:textColor="@color/black"
+        android:textSize="@dimen/bts"
+        android:paddingTop="50dip" 
+        />
+
+</LinearLayout>

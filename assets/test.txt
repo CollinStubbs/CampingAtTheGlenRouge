@@ -1,0 +1,7 @@
+This text file
+\n
+\n
+is a test
+it is \t 
+a
+test

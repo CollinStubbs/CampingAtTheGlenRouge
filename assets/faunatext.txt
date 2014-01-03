@@ -1,0 +1,44 @@
+Name: White-Tailed Deer
+What They Eat:
+Where They Live: 
+~~
+Name: Raccoon
+What They Eat:
+Where They Live:
+~~
+Name: Ground Hog
+What They Eat:
+Where They Live:
+~~
+Name: Eastern Grey Squirrel
+What They Eat:
+Where They Live:
+~~
+Name: Red Squirrel
+What They Eat:
+Where They Live:
+~~
+Name: Blue Jay
+What They Eat:
+Where They Live:
+~~
+Name: Downey Woodpecker
+What They Eat:
+Where They Live:
+~~
+Name: Black-Capped Chickadee
+What They Eat:
+Where They Live:
+~~
+Name: American Gold Finch
+What They Eat:
+Where They Live:
+~~
+
+//**********MAKE SO ONLY NAME DISPLAYS BESIDE PICTURE AND WHEN CLICKED INFORMATION TEXTVIEW OR SOMETHING POPS UP OVER TOP OF THE PAGE
+
+IMAGE
+TITLE
+FACTS
+
+INVESTIGATE POPUPWINDOW

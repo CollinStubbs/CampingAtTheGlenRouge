@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Camping at the Glen Rouge</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="calendar">Calendar</string>
+    <string name="grc">Glen Rouge</string>
+    <string name="the">The</string>
+    <string name="activity">&#160;&#160;Activities&#160;&#160;</string>
+    <string name="hrs">Hours Of Operation</string>
+    <string name="tour">&#160;&#160;Tourism&#160;&#160;&#160;</string>
+    <string name="wild">&#160;&#160;&#160;Wildlife&#160;&#160;&#160;</string>
+    <string name="info">&#160;&#160;&#160;Info.  &amp; &#160;&#160;\n Rules&#160;</string>
+    <string name="cal">&#160;&#160;Calendar&#160;&#160;</string>
+    <string name="tips">&#160;Camping&#160;\n Tips&#160;</string>
+    <string name="ruleChoice">1.&#160;&#160;&#160; Rules </string>
+    <string name="infoChoice">2. &#160;&#160;&#160;Information</string>
+    <string name="formore">For more information please visit \n www.trca.on.ca/GlenRouge/</string>
+    <string name="wildtext">The Glen Rouge has many\n animals and plants, which\n would like to see?</string>
+    <string name="Flora">Flora (Plants)</string>
+    <string name="Fauna">&#160;&#160;&#160;&#160;Fauna (Animals)</string>
+	<string name="ruleTitle"><u>Rules</u></string>
+	<string name="infoTitle"><u>General Info.</u></string>
+	 <string-array name="infoOptions">
+        <item>Hours Of Operation</item>
+        <item>What We Sell</item>
+        <item>How To Book a Site</item>
+        <item>Group Camping Information</item>
+    </string-array>
+</resources>

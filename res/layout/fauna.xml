@@ -82,7 +82,7 @@
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
                         android:background="@color/wildcolour"
-                        android:text="TEEEEEEESSSSSTTTTT" />
+                        android:text="Groundhog" />
     </LinearLayout>
          <LinearLayout 
         android:layout_width="match_parent"
@@ -104,7 +104,7 @@
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
                         android:background="@color/wildcolour"
-                        android:text="TEEEEEEESSSSSTTTTT" />
+                        android:text="Eastern Grey Squirrel" />
         
     </LinearLayout>
              <LinearLayout 
@@ -127,7 +127,7 @@
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
                         android:background="@color/wildcolour"
-                        android:text="TEEEEEEESSSSSTTTTT" />
+                        android:text="American Red Squirrel" />
         
     </LinearLayout>
              <LinearLayout 
@@ -150,7 +150,7 @@
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
                         android:background="@color/wildcolour"
-                        android:text="TEEEEEEESSSSSTTTTT" />
+                        android:text="Blue Jay" />
     </LinearLayout>
                <LinearLayout 
         android:layout_width="match_parent"
@@ -172,7 +172,7 @@
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
                         android:background="@color/wildcolour"
-                        android:text="TEEEEEEESSSSSTTTTT" />
+                        android:text="Downy Woodpecker" />
     </LinearLayout>
              <LinearLayout 
         android:layout_width="match_parent"
@@ -194,7 +194,7 @@
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
                         android:background="@color/wildcolour"
-                        android:text="TEEEEEEESSSSSTTTTT" />
+                        android:text="Black-Capped Chickadee" />
     </LinearLayout>
           <LinearLayout 
         android:layout_width="match_parent"
@@ -216,7 +216,7 @@
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
                         android:background="@color/wildcolour"
-                        android:text="TEEEEEEESSSSSTTTTT" />
+                        android:text="American Gold Finch" />
         
     </LinearLayout>
     </LinearLayout>

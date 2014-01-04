@@ -178,7 +178,7 @@ public class fauna extends Activity implements OnClickListener {
 			profile.setImageResource(R.drawable.egsquirrel);
 						
 			name = (TextView) layout.findViewById(R.id.name);
-			name.setText("\n\nName:\n\n\t Eastern Gray Squirrel\n\n");
+			name.setText("\n\nName:\n\n\t Eastern Grey Squirrel\n\n");
 			
 			live = (TextView) layout.findViewById(R.id.live);
 			live.setText("Where They Live:\n\n\t Southern Ontario, parts of southern Manitoba and Saskatchewan, and the eastern half of the U.S.A\n\n");

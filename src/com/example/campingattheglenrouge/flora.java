@@ -24,6 +24,7 @@ public class flora extends Activity implements OnClickListener {
     TextView name;
     TextView height;
     TextView bloom;
+    TextView life;
     TextView facts;
 
     Button dis;
@@ -32,7 +33,7 @@ public class flora extends Activity implements OnClickListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.fauna);
+        setContentView(R.layout.flora);
         setUpButtonClickListener();
     }
     public void setUpButtonClickListener(){
@@ -92,7 +93,7 @@ public class flora extends Activity implements OnClickListener {
 	
 	    	    // The code below assumes that the root container has an id called 'main'
 	  switch(v.getId()){
-		case R.id.Button1:
+		case R.id.Buttonf1:
 			profile = (ImageView) layout.findViewById(R.id.profile);
 			profile.setImageResource(R.drawable.aster);//crashes here
 						
@@ -100,11 +101,65 @@ public class flora extends Activity implements OnClickListener {
 			name.setText("\n\nName:\n\n\t Frost Aster\n\n");
 			
 			height = (TextView) layout.findViewById(R.id.height);
-			height.setText();
+			height.setText("\n\nHeight:\n\n\t They grow to be around 1 metre tall.\n\n");
 			bloom = (TextView) layout.findViewById(R.id.bloom);
-			bloom.setText();
+			bloom.setText("\n\nWhen They Bloom:\n\n\t They bloom in the Autumn.\n\n");
+			life = (TextView) layout.findViewById(R.id.life);
+			life.setText("\n\nHow Long Do They Live?\n\n\t They are perennials so they live for greater than 2 years.\n\n ");
 			facts = (TextView) layout.findViewById(R.id.facts);
-			facts.setText();
+			facts.setText("\n\nFun Facts:\n\n\t  The name comes from the greek word \"astér\" which means star (like the shape of the flowers head).\n\n");
+			break;
+		case R.id.Buttonf2:
+			profile = (ImageView) layout.findViewById(R.id.profile);
+			profile.setImageResource(R.drawable.bracken);//crashes here
+						
+			name = (TextView) layout.findViewById(R.id.name);
+			name.setText("\n\nName:\n\n\t Eastern Bracken\n\n");
+			
+			height = (TextView) layout.findViewById(R.id.height);
+			height.setText("\n\nHeight:\n\n\t They grow to be around 2 metres tall.\n\n");
+			bloom = (TextView) layout.findViewById(R.id.bloom);
+			bloom.setText("\n\nWhen They Bloom:\n\n\t They are a type of fern so they do not have flowers to bloom.\n\n");
+			life = (TextView) layout.findViewById(R.id.life);
+			life.setText("\n\nHow Long Do They Live?\n\n\t They are perennials so they live for greater than 2 years.\n\n ");
+			facts = (TextView) layout.findViewById(R.id.facts);
+			facts.setText("\n\nFun Facts:\n\n\t  They reproduce using spores and deep stems.\n\n");
+			break;
+		case R.id.Buttonf3:
+			profile = (ImageView) layout.findViewById(R.id.profile);
+			profile.setImageResource(R.drawable.chicory);//crashes here
+						
+			name = (TextView) layout.findViewById(R.id.name);
+			name.setText("\n\nName:\n\n\t Chicory\n\n");
+			
+			height = (TextView) layout.findViewById(R.id.height);
+			height.setText("\n\nHeight:\n\n\t They grow to be 30-100 cm's tall.\n\n");
+			bloom = (TextView) layout.findViewById(R.id.bloom);
+			bloom.setText("\n\nWhen They Bloom:\n\n\t They bloom in the late spring.\n\n");
+			life = (TextView) layout.findViewById(R.id.life);
+			life.setText("\n\nHow Long Do They Live?\n\n\t They are perennials so they live for greater than 2 years.\n\n ");
+			facts = (TextView) layout.findViewById(R.id.facts);
+			facts.setText("\n\nFun Facts:\n\n\t  Chicory has been known to be used in alternative medicines.\n\n");
+			break;
+			
+		case R.id.Buttonf4:
+			profile = (ImageView) layout.findViewById(R.id.profile);
+			profile.setImageResource(R.drawable.cucumber);//crashes here
+						
+			name = (TextView) layout.findViewById(R.id.name);
+			name.setText("\n\nName:\n\n\t Wild Cucumber\n\n");
+			
+			height = (TextView) layout.findViewById(R.id.height);
+			height.setText("\n\nHeight:\n\n\t They are a vine so they do not necessarily grow up and range from very long to very short.\n\n");
+			bloom = (TextView) layout.findViewById(R.id.bloom);
+			bloom.setText("\n\nWhen They Bloom:\n\n\t They bloom in July-September.\n\n");
+			life = (TextView) layout.findViewById(R.id.life);
+			life.setText("\n\nHow Long Do They Live?\n\n\t They are perennials so they live for greater than 2 years.\n\n ");
+			facts = (TextView) layout.findViewById(R.id.facts);
+			facts.setText("\n\nFun Facts:\n\n\t  Although they are called cucumbers they are not like they kind you buy at the store and if eaten can make you very sick.\n\n");
+			break;
+			
+			
 		}
 		} catch (Exception e) {
 			e.printStackTrace();

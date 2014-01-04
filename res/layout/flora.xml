@@ -32,7 +32,7 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:background="@color/wildcolour"
-            android:text="TEEEEEEESSSSSTTTTT" />
+            android:text="Frost Aster" />
     </LinearLayout>
 
     <LinearLayout
@@ -54,7 +54,7 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:background="@color/wildcolour"
-            android:text="TEEEEEEESSSSSTTTTT" />
+            android:text="Eastern Bracken" />
     </LinearLayout>
 
      <LinearLayout 
@@ -77,7 +77,7 @@
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
                         android:background="@color/wildcolour"
-                        android:text="TEEEEEEESSSSSTTTTT" />
+                        android:text="Chicory" />
     </LinearLayout>
          <LinearLayout 
         android:layout_width="match_parent"
@@ -99,7 +99,7 @@
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
                         android:background="@color/wildcolour"
-                        android:text="TEEEEEEESSSSSTTTTT" />
+                        android:text="Wild Cucumber" />
         
     </LinearLayout>
              <LinearLayout 

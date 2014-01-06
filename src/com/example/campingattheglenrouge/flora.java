@@ -55,8 +55,8 @@ public class flora extends Activity implements OnClickListener {
     	periwinkle.setOnClickListener(this);
     	Button pine = (Button)findViewById(R.id.Buttonf9);
     	pine.setOnClickListener(this);
-    	Button rose = (Button)findViewById(R.id.Buttonf10);
-    	rose.setOnClickListener(this);
+    	//Button rose = (Button)findViewById(R.id.Buttonf10);
+    	//rose.setOnClickListener(this);
     	Button susan = (Button)findViewById(R.id.Buttonf11);
     	susan.setOnClickListener(this);
     
@@ -67,8 +67,7 @@ public class flora extends Activity implements OnClickListener {
 		// TODO Auto-generated method stub
 		try {
 			// We need to get the instance of the LayoutInflater
-			LayoutInflater inflater = (LayoutInflater) flora.this
-			.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+			LayoutInflater inflater = (LayoutInflater) flora.this.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 			View layout = inflater.inflate(R.layout.florapop,
 			(ViewGroup) findViewById(R.id.fpl));
 			pw = new PopupWindow(layout, 600, 670, true);
@@ -236,7 +235,7 @@ public class flora extends Activity implements OnClickListener {
 			facts = (TextView) layout.findViewById(R.id.facts);
 			facts.setText("\n\nFun Facts:\n\n\t  Pine tree's have needles instead of typical leaves and to distinguish a white pine look at the number of needles per grouping, if there are five (the number of letters in \"white\") then it is a white pine.  \n\n");
 			break;
-		case R.id.Buttonf10:
+		/*case R.id.Buttonf10:
 			profile = (ImageView) layout.findViewById(R.id.profile);
 			profile.setImageResource(R.drawable.rose);//crashes here
 						
@@ -251,7 +250,7 @@ public class flora extends Activity implements OnClickListener {
 			life.setText("\n\nHow Long Do They Live?\n\n\t They are perennials so they live for greater than 2 years.\n\n ");
 			facts = (TextView) layout.findViewById(R.id.facts);
 			facts.setText("\n\nFun Facts:\n\n\t  The Prickly Wild Rose has rosebuds that are used for jelly and tea (note: please do not eat or attempt to cook with.  \n\n");
-			break;
+			break;*/
 		case R.id.Buttonf11:
 			profile = (ImageView) layout.findViewById(R.id.profile);
 			profile.setImageResource(R.drawable.susan);//crashes here

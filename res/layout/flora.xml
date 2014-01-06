@@ -214,29 +214,7 @@
                         android:text="White Pine" />
         
     </LinearLayout>
-              <LinearLayout 
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-                android:paddingTop="5dip"
-        android:paddingBottom="5dip"
-        android:background="@drawable/layoutborder"
-        >
-
-            <ImageView
-                android:id="@+id/imageView10"
-                android:layout_width="182dp"
-                android:layout_height="143dp"
-                android:src="@drawable/rose1" />
-
-            <Button
-                        android:id="@+id/Buttonf10"
-                        android:layout_width="fill_parent"
-                        android:layout_height="fill_parent"
-                        android:background="@color/wildcolour"
-                        android:text="Prickly Wild Rose" />
-        
-    </LinearLayout>
+   
               <LinearLayout 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

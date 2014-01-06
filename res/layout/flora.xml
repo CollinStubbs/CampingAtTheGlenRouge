@@ -25,7 +25,7 @@
             android:id="@+id/imageView1"
             android:layout_width="182dp"
             android:layout_height="161dp"
-            android:src="@drawable/aster" />
+            android:src="@drawable/aster1" />
 
         <Button
             android:id="@+id/Buttonf1"
@@ -47,7 +47,7 @@
             android:id="@+id/imageView2"
             android:layout_width="182dp"
             android:layout_height="160dp"
-            android:src="@drawable/bracken" />
+            android:src="@drawable/bracken1" />
 
         <Button
             android:id="@+id/Buttonf2"
@@ -70,7 +70,7 @@
                 android:id="@+id/imageView3"
                 android:layout_width="181dp"
                 android:layout_height="160dp"
-                android:src="@drawable/chicory" />
+                android:src="@drawable/chicory1" />
 
         <Button
                         android:id="@+id/Buttonf3"
@@ -92,7 +92,7 @@
                 android:id="@+id/imageView4"
                 android:layout_width="178dp"
                 android:layout_height="178dp"
-                android:src="@drawable/cucumber" />
+                android:src="@drawable/cucumber1" />
 
             <Button
                         android:id="@+id/Buttonf4"
@@ -122,7 +122,7 @@
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
                         android:background="@color/wildcolour"
-                        android:text="TEEEEEEESSSSSTTTTT" />
+                        android:text="Queen Anne's Lace" />
         
     </LinearLayout>
              <LinearLayout 
@@ -138,14 +138,14 @@
                 android:id="@+id/imageView6"
                 android:layout_width="174dp"
                 android:layout_height="140dp"
-                android:src="@drawable/maple" />
+                android:src="@drawable/maple1" />
 
         <Button
                         android:id="@+id/Buttonf6"
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
                         android:background="@color/wildcolour"
-                        android:text="TEEEEEEESSSSSTTTTT" />
+                        android:text="Maple Tree" />
     </LinearLayout>
                <LinearLayout 
         android:layout_width="match_parent"
@@ -160,14 +160,14 @@
                 android:id="@+id/imageView7"
                 android:layout_width="178dp"
                 android:layout_height="157dp"
-                android:src="@drawable/mustard" />
+                android:src="@drawable/mustard1" />
 
         <Button
                         android:id="@+id/Buttonf7"
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
                         android:background="@color/wildcolour"
-                        android:text="TEEEEEEESSSSSTTTTT" />
+                        android:text="Garlic Mustard" />
     </LinearLayout>
              <LinearLayout 
         android:layout_width="match_parent"
@@ -182,14 +182,14 @@
                 android:id="@+id/imageView8"
                 android:layout_width="181dp"
                 android:layout_height="152dp"
-                android:src="@drawable/perwinkle" />
+                android:src="@drawable/perwinkle1" />
 
         <Button
                         android:id="@+id/Buttonf8"
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
                         android:background="@color/wildcolour"
-                        android:text="TEEEEEEESSSSSTTTTT" />
+                        android:text="Periwinkle" />
     </LinearLayout>
           <LinearLayout 
         android:layout_width="match_parent"
@@ -211,7 +211,7 @@
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
                         android:background="@color/wildcolour"
-                        android:text="TEEEEEEESSSSSTTTTT" />
+                        android:text="White Pine" />
         
     </LinearLayout>
               <LinearLayout 
@@ -227,14 +227,14 @@
                 android:id="@+id/imageView10"
                 android:layout_width="182dp"
                 android:layout_height="143dp"
-                android:src="@drawable/rose" />
+                android:src="@drawable/rose1" />
 
             <Button
                         android:id="@+id/Buttonf10"
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
                         android:background="@color/wildcolour"
-                        android:text="TEEEEEEESSSSSTTTTT" />
+                        android:text="Prickly Wild Rose" />
         
     </LinearLayout>
               <LinearLayout 
@@ -250,38 +250,16 @@
                 android:id="@+id/imageView11"
                 android:layout_width="182dp"
                 android:layout_height="134dp"
-                android:src="@drawable/susan" />
+                android:src="@drawable/susan1" />
 
             <Button
                         android:id="@+id/Buttonf11"
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
                         android:background="@color/wildcolour"
-                        android:text="TEEEEEEESSSSSTTTTT" />
+                        android:text="Black-Eyed Susan" />
         
     </LinearLayout>
-              <LinearLayout 
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-                android:paddingTop="5dip"
-        android:paddingBottom="5dip"
-        android:background="@drawable/layoutborder"
-        >
 
-            <ImageView
-                android:id="@+id/imageView12"
-                android:layout_width="179dp"
-                android:layout_height="158dp"
-                android:src="@drawable/weed" />
-
-            <Button
-                        android:id="@+id/Buttonf12"
-                        android:layout_width="fill_parent"
-                        android:layout_height="fill_parent"
-                        android:background="@color/wildcolour"
-                        android:text="TEEEEEEESSSSSTTTTT" />
-        
-    </LinearLayout>
     </LinearLayout>
 </ScrollView>

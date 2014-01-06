@@ -59,8 +59,6 @@ public class flora extends Activity implements OnClickListener {
     	rose.setOnClickListener(this);
     	Button susan = (Button)findViewById(R.id.Buttonf11);
     	susan.setOnClickListener(this);
-    	Button weed = (Button)findViewById(R.id.Buttonf12);
-    	weed.setOnClickListener(this);
     
     	
     }
@@ -73,7 +71,7 @@ public class flora extends Activity implements OnClickListener {
 			.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 			View layout = inflater.inflate(R.layout.florapop,
 			(ViewGroup) findViewById(R.id.fpl));
-			pw = new PopupWindow(layout, 500, 570, true);
+			pw = new PopupWindow(layout, 600, 670, true);
 			pw.showAtLocation(layout, Gravity.CENTER, 0, 0);
 			pw.setTouchInterceptor(new View.OnTouchListener() {
 
@@ -158,8 +156,118 @@ public class flora extends Activity implements OnClickListener {
 			facts = (TextView) layout.findViewById(R.id.facts);
 			facts.setText("\n\nFun Facts:\n\n\t  Although they are called cucumbers they are not like they kind you buy at the store and if eaten can make you very sick.\n\n");
 			break;
+		case R.id.Buttonf5:
+			profile = (ImageView) layout.findViewById(R.id.profile);
+			profile.setImageResource(R.drawable.lace);//crashes here
+						
+			name = (TextView) layout.findViewById(R.id.name);
+			name.setText("\n\nName:\n\n\t Queen Anne's Lace\n\n");
 			
+			height = (TextView) layout.findViewById(R.id.height);
+			height.setText("\n\nHeight:\n\n\t They grow up to 1- 1.5 metres. \n\n");
+			bloom = (TextView) layout.findViewById(R.id.bloom);
+			bloom.setText("\n\nWhen They Bloom:\n\n\t They bloom from May-October.\n\n");
+			life = (TextView) layout.findViewById(R.id.life);
+			life.setText("\n\nHow Long Do They Live?\n\n\t They are biennials so the live for only 2 years.\n\n ");
+			facts = (TextView) layout.findViewById(R.id.facts);
+			facts.setText("\n\nFun Facts:\n\n\t  They are called wild carrots and are related to domestic carrots (note: if seen please do not eat, although they are realted to carrots they are not necessarily edible.\n\n");
+			break;
+		case R.id.Buttonf6:
+			profile = (ImageView) layout.findViewById(R.id.profile);
+			profile.setImageResource(R.drawable.maple);//crashes here
+						
+			name = (TextView) layout.findViewById(R.id.name);
+			name.setText("\n\nName:\n\n\t Maple Tree\n\n");
 			
+			height = (TextView) layout.findViewById(R.id.height);
+			height.setText("\n\nHeight:\n\n\t They grow up to 45 metre's tall.\n\n");
+			bloom = (TextView) layout.findViewById(R.id.bloom);
+			bloom.setText("\n\nWhen They Bloom:\n\n\t The type of the maple will give a more specific timespan but they generally bloom between March and June.\n\n");
+			life = (TextView) layout.findViewById(R.id.life);
+			life.setText("\n\nHow Long Do They Live?\n\n\t They are perennials so they live for greater than 2 years.\n\n ");
+			facts = (TextView) layout.findViewById(R.id.facts);
+			facts.setText("\n\nFun Facts:\n\n\t  These tree's have a sap (a sugary and salty fluid from the tree's vascular system) that can be used to make maple syrup (note: the process takes many hours to boil and evaporate the sap into syrup so it will taste nothing like it does from the bottle). \n\n");
+			break;
+		case R.id.Buttonf7:
+			profile = (ImageView) layout.findViewById(R.id.profile);
+			profile.setImageResource(R.drawable.mustard);//crashes here
+						
+			name = (TextView) layout.findViewById(R.id.name);
+			name.setText("\n\nName:\n\n\t Garlic Mustard\n\n");
+			
+			height = (TextView) layout.findViewById(R.id.height);
+			height.setText("\n\nHeight:\n\n\t They grow to be 1.2 metres tall.\n\n");
+			bloom = (TextView) layout.findViewById(R.id.bloom);
+			bloom.setText("\n\nWhen They Bloom:\n\n\t They bloom in April and May.\n\n");
+			life = (TextView) layout.findViewById(R.id.life);
+			life.setText("\n\nHow Long Do They Live?\n\n\t They are biennials so the live for only 2 years.\n\n ");
+			facts = (TextView) layout.findViewById(R.id.facts);
+			facts.setText("\n\nFun Facts:\n\n\t  Garlic Mustard is neither a garlic nor is it used to make mustard, it is however an invasive species. \n\n");
+			break;
+		case R.id.Buttonf8:
+			profile = (ImageView) layout.findViewById(R.id.profile);
+			profile.setImageResource(R.drawable.perwinkle);//crashes here
+						
+			name = (TextView) layout.findViewById(R.id.name);
+			name.setText("\n\nName:\n\n\t Periwinkle\n\n");
+			
+			height = (TextView) layout.findViewById(R.id.height);
+			height.setText("\n\nHeight:\n\n\t They grow to be 0.1-0.15 metres tall.\n\n");
+			bloom = (TextView) layout.findViewById(R.id.bloom);
+			bloom.setText("\n\nWhen They Bloom:\n\n\t They bloom in May and June.\n\n");
+			life = (TextView) layout.findViewById(R.id.life);
+			life.setText("\n\nHow Long Do They Live?\n\n\t They are perennials so they live for greater than 2 years.\n\n ");
+			facts = (TextView) layout.findViewById(R.id.facts);
+			facts.setText("\n\nFun Facts:\n\n\t  Periwinkle can refer to two North American flowers, vinca major and vinca minor. Both are invasive species.  \n\n");
+			break;
+		case R.id.Buttonf9:
+			profile = (ImageView) layout.findViewById(R.id.profile);
+			profile.setImageResource(R.drawable.pine);//crashes here
+						
+			name = (TextView) layout.findViewById(R.id.name);
+			name.setText("\n\nName:\n\n\t White Pine\n\n");
+			
+			height = (TextView) layout.findViewById(R.id.height);
+			height.setText("\n\nHeight:\n\n\t They grow to be 25-33 metres tall.\n\n");
+			bloom = (TextView) layout.findViewById(R.id.bloom);
+			bloom.setText("\n\nWhen They Bloom:\n\n\t They don't necessarily have a set time that they bloom. To ripen, the cones sometimes take 3 years.\n\n");
+			life = (TextView) layout.findViewById(R.id.life);
+			life.setText("\n\nHow Long Do They Live?\n\n\t They are perennials so they live for greater than 2 years.\n\n ");
+			facts = (TextView) layout.findViewById(R.id.facts);
+			facts.setText("\n\nFun Facts:\n\n\t  Pine tree's have needles instead of typical leaves and to distinguish a white pine look at the number of needles per grouping, if there are five (the number of letters in \"white\") then it is a white pine.  \n\n");
+			break;
+		case R.id.Buttonf10:
+			profile = (ImageView) layout.findViewById(R.id.profile);
+			profile.setImageResource(R.drawable.rose);//crashes here
+						
+			name = (TextView) layout.findViewById(R.id.name);
+			name.setText("\n\nName:\n\n\t Prickly Wild Rose\n\n");
+			
+			height = (TextView) layout.findViewById(R.id.height);
+			height.setText("\n\nHeight:\n\n\t They grow to be 1-3 metres tall.\n\n");
+			bloom = (TextView) layout.findViewById(R.id.bloom);
+			bloom.setText("\n\nWhen They Bloom:\n\n\t They bloom in June and July.\n\n");
+			life = (TextView) layout.findViewById(R.id.life);
+			life.setText("\n\nHow Long Do They Live?\n\n\t They are perennials so they live for greater than 2 years.\n\n ");
+			facts = (TextView) layout.findViewById(R.id.facts);
+			facts.setText("\n\nFun Facts:\n\n\t  The Prickly Wild Rose has rosebuds that are used for jelly and tea (note: please do not eat or attempt to cook with.  \n\n");
+			break;
+		case R.id.Buttonf11:
+			profile = (ImageView) layout.findViewById(R.id.profile);
+			profile.setImageResource(R.drawable.susan);//crashes here
+						
+			name = (TextView) layout.findViewById(R.id.name);
+			name.setText("\n\nName:\n\n\t Black-Eyed Susan\n\n");
+			
+			height = (TextView) layout.findViewById(R.id.height);
+			height.setText("\n\nHeight:\n\n\t They grow to be 0.3-1 metres tall.\n\n");
+			bloom = (TextView) layout.findViewById(R.id.bloom);
+			bloom.setText("\n\nWhen They Bloom:\n\n\t They bloom in July-September.\n\n");
+			life = (TextView) layout.findViewById(R.id.life);
+			life.setText("\n\nHow Long Do They Live?\n\n\t They are perennials so they live for greater than 2 years.\n\n ");
+			facts = (TextView) layout.findViewById(R.id.facts);
+			facts.setText("\n\nFun Facts:\n\n\t  There are many flowers that have the name \"Black-eyed Susan\" but the specific one I am referring to has the scientific name Rudbeckia hirta .  \n\n");
+			break;
 		}
 		} catch (Exception e) {
 			e.printStackTrace();

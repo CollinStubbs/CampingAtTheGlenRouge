@@ -69,7 +69,7 @@ public class fauna extends Activity implements OnClickListener {
 			.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 			View layout = inflater.inflate(R.layout.faunapop,
 			(ViewGroup) findViewById(R.id.fpl));
-			pw = new PopupWindow(layout, 500, 570, true);
+			pw = new PopupWindow(layout, 600, 670, true);
 			pw.showAtLocation(layout, Gravity.CENTER, 0, 0);
 			pw.setTouchInterceptor(new View.OnTouchListener() {
 

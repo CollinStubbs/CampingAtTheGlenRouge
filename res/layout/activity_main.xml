@@ -115,5 +115,16 @@
         android:text="@string/activity"
         android:textColor="@color/white"
         android:textSize="@dimen/bts" />
+    
+    <Button
+        android:id="@+id/credit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/campButton"
+        android:text="Credits and Contributions"
+        android:background="@null"
+        android:paddingTop="30sp"
+        android:paddingLeft="95sp"
+        />
 
 </RelativeLayout>

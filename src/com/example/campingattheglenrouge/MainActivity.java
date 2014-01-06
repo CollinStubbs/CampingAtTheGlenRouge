@@ -1,17 +1,30 @@
 package com.example.campingattheglenrouge;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
+import android.content.res.AssetManager;
 import android.graphics.Typeface;
+import android.view.Gravity;
+import android.view.LayoutInflater;
 import android.view.Menu;
+import android.view.MotionEvent;
 import android.view.View;
+import android.view.ViewGroup;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.PopupWindow;
 import android.widget.TextView;
 
 public class MainActivity extends Activity implements OnClickListener {
-
+	PopupWindow pw;
+	Button dis;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -56,6 +69,9 @@ public class MainActivity extends Activity implements OnClickListener {
     	
     	Button touristButton = (Button)findViewById(R.id.touristButton);
     	touristButton.setOnClickListener(this);
+    	
+    	Button credit = (Button)findViewById(R.id.credit);
+    	credit.setOnClickListener(this);
     }
 
 
@@ -101,8 +117,58 @@ public class MainActivity extends Activity implements OnClickListener {
 			startActivityForResult(intent6, 0);
 			
 			break;
+		case R.id.credit:
+			
+			LayoutInflater inflater = (LayoutInflater) MainActivity.this.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+			View layout = inflater.inflate(R.layout.creditpop,
+			(ViewGroup) findViewById(R.id.cr));
+			pw = new PopupWindow(layout, 600, 670, true);
+			pw.showAtLocation(layout, Gravity.CENTER, 0, 0);
+			pw.setTouchInterceptor(new View.OnTouchListener() {
+
+		        @Override
+		        public boolean onTouch(View v, MotionEvent event) {
+		            // TODO Auto-generated method stub
+		            if (event.getAction() == MotionEvent.ACTION_DOWN) {
+		                pw.dismiss();
+		            }
+		            return true;
+		        }
+		    });
+
+			dis = (Button) layout.findViewById(R.id.dismiss1);
+			dis.setOnClickListener(cancel_button_click_listener);
+			
+			AssetManager am = this.getAssets();
+	        String readData = "";
+	        try {
+				InputStream is = am.open("credit.txt");
+				InputStreamReader isr = new InputStreamReader(is);
+				BufferedReader br = new BufferedReader(isr);
+				
+				String dataHolder = br.readLine();
+				
+				while(dataHolder!= null){
+					readData+= dataHolder;
+					dataHolder = br.readLine();
+					readData+="\n";// or manually place them in the .txt
+				}
+				
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+	        
+			TextView cred = (TextView) layout.findViewById(R.id.credview);
+			cred.setText(readData);
 		}
 		}
+	private OnClickListener cancel_button_click_listener = new OnClickListener() {
+		public void onClick(View v) {
+		pw.dismiss();
+
+		}
+		};
 		
 	}
     

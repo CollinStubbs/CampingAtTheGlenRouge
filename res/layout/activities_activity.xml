@@ -7,6 +7,13 @@
     android:orientation="vertical" 
     android:gravity="center">
 
+    <Button
+        android:id="@+id/mappop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trail map of the Rouge Valley"
+        android:background="@null" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="428dp"

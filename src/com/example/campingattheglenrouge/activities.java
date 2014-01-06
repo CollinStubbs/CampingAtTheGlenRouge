@@ -30,10 +30,10 @@ public class activities extends Activity implements OnClickListener{
 	public void onClick(View v) {
 		switch(v.getId()){
 		case R.id.mappop:
-			LayoutInflater inflater = (LayoutInflater) activities.this.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+		LayoutInflater inflater = (LayoutInflater) activities.this.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 			View layout = inflater.inflate(R.layout.imagepop,
 			(ViewGroup) findViewById(R.id.im));
-			pw = new PopupWindow(layout, 600, 670, true);
+			pw = new PopupWindow(layout, ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT, true);
 			pw.showAtLocation(layout, Gravity.CENTER, 0, 0);
 			pw.setTouchInterceptor(new View.OnTouchListener() {
 
@@ -49,6 +49,9 @@ public class activities extends Activity implements OnClickListener{
 
 			dis = (Button) layout.findViewById(R.id.dismiss2);
 			dis.setOnClickListener(cancel_button_click_listener);
+			
+
+			
 			break;
 		}
 		// TODO Auto-generated method stub

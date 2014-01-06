@@ -14,10 +14,6 @@
         android:text="Trail map of the Rouge Valley"
         android:background="@null" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="428dp"
-        android:background="@color/textback"
-        android:textColor="@color/black" />
+
 
 </LinearLayout>

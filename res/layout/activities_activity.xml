@@ -4,16 +4,71 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/actcolor"
-    android:orientation="vertical" 
-    android:gravity="center">
+    android:gravity="center"
+    android:orientation="vertical" >
 
     <Button
         android:id="@+id/mappop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Trail map of the Rouge Valley"
-        android:background="@null" />
 
+        android:background="#77FFFFFF"
+        android:text="Trail map of the Rouge Valley" />
 
+    <Button
+        android:id="@+id/beachpop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#77FFFFFF"
+        android:text="The Rouge Beach Trail" />
+
+    <Button
+        android:id="@+id/cedarpop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:text="Cedar Trail" />
+
+    <Button
+        android:id="@+id/eaglepop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:text="Glen Eagles Vista Trail" />
+
+    <Button
+        android:id="@+id/mastpop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:text="Mast Trail" />
+
+    <Button
+        android:id="@+id/meanderpop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:text="Finch Meander Trail" />
+
+    <Button
+        android:id="@+id/orchardpop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:text="Orchard Trail" />
+
+    <Button
+        android:id="@+id/vistapop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:text="Vista Trail" />
+
+    <Button
+        android:id="@+id/woodlandpop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:text="Woodland Trail" />
 
 </LinearLayout>

@@ -4,20 +4,20 @@
     android:layout_height="match_parent"
     android:orientation="horizontal" 
     android:id="@+id/im"
-    android:background="@null">
+    android:background="@color/blacktran">
 
     <com.example.campingattheglenrouge.TouchImageView
         android:id="@+id/imageView1"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:src="@drawable/map" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+ />
 
    		    <LinearLayout
 		        android:orientation="vertical"
 		        android:layout_width="fill_parent" 
 		        android:layout_height="wrap_content"
 		        android:gravity="top|right"
-		        android:paddingRight="20sp">
+		        android:paddingRight="21sp">
 		        
 			     <Button
 			         android:id="@+id/dismiss2"
@@ -29,8 +29,7 @@
 
 		     </LinearLayout>
 
+
    		 
- 
-"
 
 </LinearLayout>

@@ -70,18 +70,9 @@ public class fauna extends Activity implements OnClickListener {
 			View layout = inflater.inflate(R.layout.faunapop,
 			(ViewGroup) findViewById(R.id.fpl));
 			pw = new PopupWindow(layout, 600, 670, true);
+	        pw.setBackgroundDrawable(new BitmapDrawable());
 			pw.showAtLocation(layout, Gravity.CENTER, 0, 0);
-			pw.setTouchInterceptor(new View.OnTouchListener() {
-
-		        @Override
-		        public boolean onTouch(View v, MotionEvent event) {
-		            // TODO Auto-generated method stub
-		            if (event.getAction() == MotionEvent.ACTION_DOWN) {
-		                pw.dismiss();
-		            }
-		            return true;
-		        }
-		    });
+			
 
 			dis = (Button) layout.findViewById(R.id.dismiss);
 			dis.setOnClickListener(cancel_button_click_listener);

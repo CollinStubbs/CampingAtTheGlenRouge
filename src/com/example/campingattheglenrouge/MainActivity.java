@@ -11,6 +11,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.res.AssetManager;
 import android.graphics.Typeface;
+import android.graphics.drawable.BitmapDrawable;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -123,18 +124,10 @@ public class MainActivity extends Activity implements OnClickListener {
 			View layout = inflater.inflate(R.layout.creditpop,
 			(ViewGroup) findViewById(R.id.cr));
 			pw = new PopupWindow(layout, 600, 670, true);
-			pw.showAtLocation(layout, Gravity.CENTER, 0, 0);
-			pw.setTouchInterceptor(new View.OnTouchListener() {
+	        pw.setBackgroundDrawable(new BitmapDrawable());
 
-		        @Override
-		        public boolean onTouch(View v, MotionEvent event) {
-		            // TODO Auto-generated method stub
-		            if (event.getAction() == MotionEvent.ACTION_DOWN) {
-		                pw.dismiss();
-		            }
-		            return true;
-		        }
-		    });
+			pw.showAtLocation(layout, Gravity.CENTER, 0, 0);
+			
 
 			dis = (Button) layout.findViewById(R.id.dismiss1);
 			dis.setOnClickListener(cancel_button_click_listener);

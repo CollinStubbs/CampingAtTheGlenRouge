@@ -71,18 +71,10 @@ public class flora extends Activity implements OnClickListener {
 			View layout = inflater.inflate(R.layout.florapop,
 			(ViewGroup) findViewById(R.id.fpl));
 			pw = new PopupWindow(layout, 600, 670, true);
-			pw.showAtLocation(layout, Gravity.CENTER, 0, 0);
-			pw.setTouchInterceptor(new View.OnTouchListener() {
+	        pw.setBackgroundDrawable(new BitmapDrawable());
 
-		        @Override
-		        public boolean onTouch(View v, MotionEvent event) {
-		            // TODO Auto-generated method stub
-		            if (event.getAction() == MotionEvent.ACTION_DOWN) {
-		                pw.dismiss();
-		            }
-		            return true;
-		        }
-		    });
+			pw.showAtLocation(layout, Gravity.CENTER, 0, 0);
+			
 
 			dis = (Button) layout.findViewById(R.id.dismiss);
 			dis.setOnClickListener(cancel_button_click_listener);

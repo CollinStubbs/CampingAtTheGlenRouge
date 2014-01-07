@@ -4,71 +4,122 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/actcolor"
-    android:gravity="center"
-    android:orientation="vertical" >
+    android:gravity="center_horizontal"
+    android:orientation="vertical" 
+    android:paddingTop="35sp">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/acttit"
+        android:textColor="@color/black"
+        android:textSize="23sp"
+        android:paddingBottom="15dp" />
 
     <Button
         android:id="@+id/mappop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
         android:background="#77FFFFFF"
-        android:text="Trail map of the Rouge Valley" />
+        android:paddingBottom="7sp"
+        android:paddingTop="7sp"
+        android:text="Click here for a full trail map of the Rouge Valley"
+        android:textSize="18dp" />
 
-    <Button
-        android:id="@+id/beachpop"
+    <TextView
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#77FFFFFF"
-        android:text="The Rouge Beach Trail" />
-
-    <Button
-        android:id="@+id/cedarpop"
+        android:text="\n\nClick below for information on\n\t\t\t the indiviual trails:\n"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+		android:paddingBottom="5dp"
+        />
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@null"
-        android:text="Cedar Trail" />
-
-    <Button
-        android:id="@+id/eaglepop"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@null"
-        android:text="Glen Eagles Vista Trail" />
-
-    <Button
-        android:id="@+id/mastpop"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@null"
-        android:text="Mast Trail" />
-
-    <Button
-        android:id="@+id/meanderpop"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@null"
-        android:text="Finch Meander Trail" />
-
-    <Button
-        android:id="@+id/orchardpop"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@null"
-        android:text="Orchard Trail" />
-
-    <Button
-        android:id="@+id/vistapop"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@null"
-        android:text="Vista Trail" />
-
-    <Button
-        android:id="@+id/woodlandpop"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@null"
-        android:text="Woodland Trail" />
-
+        android:gravity="left" 
+        android:orientation="vertical">
+		    <Button
+		        android:id="@+id/beachpop"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:background="@null"
+		        android:text="1. The Rouge Beach Trail"
+		        android:textSize="16sp"
+		        android:paddingBottom="5dp" />
+		
+		    <Button
+		        android:id="@+id/cedarpop"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:background="@null"
+		        android:text="2. Cedar Trail" 
+		        android:textSize="16sp"
+		        android:paddingBottom="5dp"/>
+		
+		    <Button
+		        android:id="@+id/eaglepop"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:background="@null"
+		        android:text="3. Glen Eagles Vista Trail" 
+		        android:textSize="16sp"
+		        android:paddingBottom="5dp"/>
+		
+		    <Button
+		        android:id="@+id/mastpop"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:background="@null"
+		        android:text="4. Mast Trail" 
+		        android:textSize="16sp"
+		        android:paddingBottom="5dp"/>
+		
+		    <Button
+		        android:id="@+id/meanderpop"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:background="@null"
+		        android:text="5. Finch Meander Trail"
+		        android:textSize="16sp"
+		        android:paddingBottom="5dp" />
+		
+		    <Button
+		        android:id="@+id/orchardpop"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:background="@null"
+		        android:text="6. Orchard Trail"
+		        android:textSize="16sp"
+		        android:paddingBottom="5dp" />
+		
+		    <Button
+		        android:id="@+id/vistapop"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:background="@null"
+		        android:text="7. Vista Trail"
+		        android:textSize="16sp"
+		        android:paddingBottom="5dp" />
+		
+		    <Button
+		        android:id="@+id/woodlandpop"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:background="@null"
+		        android:text="8. Woodland Trail"
+		        android:textSize="16sp"
+		        android:paddingBottom="15dp" />
+	</LinearLayout>
+	    <Button
+	        android:id="@+id/guidepop"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="#77FFFFFF"
+	        android:paddingBottom="7sp"
+	        android:paddingTop="7sp"
+	        android:text="Click here for the Rouge Park Visitors Code"
+	        android:textSize="18dp" />
 </LinearLayout>

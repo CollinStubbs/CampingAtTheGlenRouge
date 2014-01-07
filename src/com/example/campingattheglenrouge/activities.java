@@ -47,6 +47,9 @@ public class activities extends Activity implements OnClickListener{
        
        Button vp =(Button)findViewById(R.id.vistapop);
        vp.setOnClickListener(this);
+       
+       Button gp =(Button)findViewById(R.id.guidepop);
+       gp.setOnClickListener(this);
     }
     @Override
     public void onClick(View v) {
@@ -91,7 +94,9 @@ public class activities extends Activity implements OnClickListener{
         case R.id.woodlandpop:
                 touch.setImageResource(R.drawable.woodland);
             break;
-            
+        case R.id.guidepop:
+        		touch.setImageResource(R.drawable.parkguide);
+        	break;
             
         }
         // TODO Auto-generated method stub

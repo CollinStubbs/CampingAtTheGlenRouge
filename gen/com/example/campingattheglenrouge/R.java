@@ -143,8 +143,9 @@ public final class R {
         public static final int Buttonf8=0x7f0a0041;
         public static final int Buttonf9=0x7f0a0042;
         public static final int actLay=0x7f0a0000;
-        public static final int action_settings=0x7f0a0054;
+        public static final int action_settings=0x7f0a0060;
         public static final int activityButton=0x7f0a0010;
+        public static final int aquarium=0x7f0a0056;
         public static final int beachpop=0x7f0a0004;
         public static final int bloom=0x7f0a0046;
         public static final int calendarButton=0x7f0a0012;
@@ -160,10 +161,10 @@ public final class R {
         public static final int eaglepop=0x7f0a0006;
         public static final int eat=0x7f0a0034;
         public static final int facts=0x7f0a0048;
-        public static final int faunaButton=0x7f0a0052;
+        public static final int faunaButton=0x7f0a005e;
         public static final int faunaMainLay=0x7f0a0019;
         public static final int faunaMainLay2=0x7f0a001a;
-        public static final int floraButton=0x7f0a0053;
+        public static final int floraButton=0x7f0a005f;
         public static final int floraMainLay2=0x7f0a0039;
         public static final int floramainLay=0x7f0a0038;
         public static final int fpl=0x7f0a002d;
@@ -193,10 +194,13 @@ public final class R {
         public static final int orchardpop=0x7f0a0009;
         public static final int profile=0x7f0a002f;
         public static final int relatives=0x7f0a0037;
+        public static final int rogers=0x7f0a0057;
+        public static final int rom=0x7f0a0053;
         public static final int ruTe=0x7f0a0051;
         public static final int ruleButton=0x7f0a0013;
         public static final int ruleC=0x7f0a004f;
         public static final int ruleTitle=0x7f0a004c;
+        public static final int science=0x7f0a0055;
         public static final int size=0x7f0a0035;
         public static final int spread=0x7f0a0033;
         public static final int textView1=0x7f0a0003;
@@ -205,9 +209,17 @@ public final class R {
         public static final int title2=0x7f0a000d;
         public static final int topfpl=0x7f0a002e;
         public static final int touristButton=0x7f0a000f;
+        public static final int tower=0x7f0a0054;
+        public static final int tpopdesc=0x7f0a005d;
+        public static final int tpopdir=0x7f0a005c;
+        public static final int tpoploc=0x7f0a005a;
+        public static final int tpoptitle=0x7f0a0059;
+        public static final int tpoptran=0x7f0a005b;
         public static final int vistapop=0x7f0a000a;
         public static final int wildButton=0x7f0a0011;
+        public static final int wonderland=0x7f0a0052;
         public static final int woodlandpop=0x7f0a000b;
+        public static final int zoo=0x7f0a0058;
     }
     public static final class layout {
         public static final int activities_activity=0x7f030000;
@@ -224,17 +236,18 @@ public final class R {
         public static final int rules_activity=0x7f03000b;
         public static final int ruletext_activity=0x7f03000c;
         public static final int touristinfo_activity=0x7f03000d;
-        public static final int wildlife_activity=0x7f03000e;
+        public static final int tourpop=0x7f03000e;
+        public static final int wildlife_activity=0x7f03000f;
     }
     public static final class menu {
         public static final int main=0x7f090000;
     }
     public static final class string {
-        public static final int Fauna=0x7f060012;
+        public static final int Fauna=0x7f060013;
         public static final int Flora=0x7f060011;
         public static final int action_settings=0x7f060001;
         public static final int activity=0x7f060006;
-        public static final int acttit=0x7f060015;
+        public static final int acttit=0x7f060016;
         public static final int app_name=0x7f060000;
         public static final int cal=0x7f06000b;
         public static final int calendar=0x7f060003;
@@ -244,12 +257,13 @@ public final class R {
         public static final int hrs=0x7f060007;
         public static final int info=0x7f06000a;
         public static final int infoChoice=0x7f06000e;
-        public static final int infoTitle=0x7f060014;
+        public static final int infoTitle=0x7f060015;
         public static final int ruleChoice=0x7f06000d;
-        public static final int ruleTitle=0x7f060013;
+        public static final int ruleTitle=0x7f060014;
         public static final int the=0x7f060005;
         public static final int tips=0x7f06000c;
         public static final int tour=0x7f060008;
+        public static final int tourtitle=0x7f060012;
         public static final int wild=0x7f060009;
         public static final int wildtext=0x7f060010;
     }

@@ -111,7 +111,7 @@
 		        android:background="@null"
 		        android:text="8. Woodland Trail"
 		        android:textSize="16sp"
-		        android:paddingBottom="15dp" />
+		        android:paddingBottom="5dp" />
 	</LinearLayout>
 	    <Button
 	        android:id="@+id/guidepop"

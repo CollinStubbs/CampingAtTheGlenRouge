@@ -1,9 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" 
     android:background="@color/tourcolor">
-    
+	
+    <LinearLayout
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:orientation="vertical"
+    	android:gravity="center_horizontal">
+    	
+	    <TextView
+	        android:id="@+id/textView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/tourtitle" 
+	        android:textSize="22sp"
+	        android:textColor="@color/black"
+	        android:paddingTop="15dp"/>
 
-</LinearLayout>
+	    <Button
+	        android:paddingTop="7dp"
+	        android:paddingBottom="7dp"
+	        android:id="@+id/wonderland"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@null"
+	        android:text=" 1. Canada's Wonderland" />
+	    <Button
+	        android:paddingTop="7dp"
+	        android:paddingBottom="7dp"
+	        android:id="@+id/rom"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@null"
+	        android:text=" 2. Royal Ontario Museum" />
+	    <Button
+	        android:paddingTop="7dp"
+	        android:paddingBottom="7dp"
+	        android:id="@+id/tower"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@null"
+	        android:text=" 3. CN Tower" />
+	    <Button
+	        android:paddingTop="7dp"
+	        android:paddingBottom="7dp"
+	        android:id="@+id/science"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@null"
+	        android:text=" 4. Ontario Science Centre" />
+	    <Button
+	        android:paddingTop="7dp"
+	        android:paddingBottom="7dp"
+	        android:id="@+id/aquarium"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@null"
+	        android:text=" 5. Ripleys Aquarium of Canada" />
+	    <Button
+	        android:paddingTop="7dp"
+	        android:paddingBottom="7dp"
+	        android:id="@+id/rogers"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@null"
+	        android:text=" 6. Rogers Centre" />
+	    <Button
+	        android:paddingTop="7dp"
+	        android:paddingBottom="7dp"
+	        android:id="@+id/zoo"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@null"
+	        android:text=" 7. Toronto Zoo" />
+	    
+
+
+	</LinearLayout>
+</ScrollView>

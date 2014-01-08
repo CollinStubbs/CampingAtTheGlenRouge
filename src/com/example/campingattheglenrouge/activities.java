@@ -67,7 +67,6 @@ public class activities extends Activity implements OnClickListener{
         
         switch(v.getId()){
         case R.id.mappop:
-
                 touch.setImageResource(R.drawable.map);
             break;
         case R.id.beachpop:

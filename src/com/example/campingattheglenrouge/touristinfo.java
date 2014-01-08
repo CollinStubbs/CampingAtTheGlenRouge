@@ -76,14 +76,14 @@ public class touristinfo extends Activity implements OnClickListener{
 				location.setText("Address: 100 Queens Park, Toronto (32.3 km from the campground)");
 				trans.setText("Accessible through public transit? Yes!");
 				dir.setText("Directions on Public Transport:\n\n\t Walk to the GO Bus stop on the North-East corner of the intersection at Kingston and Port Union. Get on the Westbound route 92 GO Bus to Yorkdale, get off and get on the southbound TTC yellow line subway route. Take the subway to Museum Station and get off, upstairs is the museum!");
-				desc.setText("The Royal Ontario Museum is one of the largest and best museums in the world. It has everything from dinosaurs to mummified Egyptian remains to ancient Chinese pottery.");
+				desc.setText("Description of the Venue:\n\n\t The Royal Ontario Museum is one of the largest and best museums in the world. It has everything from dinosaurs to mummified Egyptian remains to ancient Chinese pottery.");
 				break;
 			case R.id.tower:
-				title.setText("");
-				location.setText("");
-				trans.setText("");
-				dir.setText("");
-				desc.setText("");
+				title.setText("CN Tower");
+				location.setText("Address: 301 Front St W, Toronto (35.9 km's from the campground)");
+				trans.setText(" Accessible through public transit? Yes!  " );
+				dir.setText("Directions on Public Transport: \n\n\tWalk to the TTC bus stop on the North-Wast corner of the intersection at Kingston and Port Union. Get on the bus and go to the Rouge Hill Train Station (any bus from this location will go to the train station). Buy a roundtrip ticket to Union Station, get on the train, get off at Union Station, and take the Skywalk straigh to the CN Tower!");
+				desc.setText("Description of the Venue:\n\n\t The CN Tower is one of the worlds largest towers, it has a great viewing deck, a glass floor, a restaurant, and the SkyWalk activity which allows you to walk outside!");
 				break;
 			case R.id.science:
 				title.setText("");

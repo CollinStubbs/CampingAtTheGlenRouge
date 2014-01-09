@@ -11,11 +11,13 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.PopupWindow;
 import android.widget.TextView;
 
 public class touristinfo extends Activity implements OnClickListener{
 	PopupWindow pw;
+	ImageView im;
 	TextView title;
 	TextView location;
 	TextView trans;
@@ -52,11 +54,12 @@ public class touristinfo extends Activity implements OnClickListener{
 	public void onClick(View v) {
 		LayoutInflater inflater = (LayoutInflater) touristinfo.this
 		.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-		View layout = inflater.inflate(R.layout.faunapop,
-		(ViewGroup) findViewById(R.id.fpl));
-		pw = new PopupWindow(layout, 600, 670, true);
+		View layout = inflater.inflate(R.layout.tourpop,
+		(ViewGroup) findViewById(R.id.tpl));
+		pw = new PopupWindow(layout, ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT, true);
         pw.setBackgroundDrawable(new BitmapDrawable());
 		pw.showAtLocation(layout, Gravity.CENTER, 0, 0);
+		im = (ImageView) layout.findViewById(R.id.tpi);
 		title = (TextView) layout.findViewById(R.id.tpoptitle);
 		location = (TextView) layout.findViewById(R.id.tpoploc);
 		trans = (TextView) layout.findViewById(R.id.tpoptran);
@@ -65,53 +68,59 @@ public class touristinfo extends Activity implements OnClickListener{
 		// TODO Auto-generated method stub
 		switch(v.getId()){
 			case R.id.wonderland:
+				im.setImageResource(R.drawable.wonderland);
 				title.setText("Canada's Wonderland");
-				location.setText("Address: 9580 Jane St, Vaughan (48.5 km from the campground)");
-				trans.setText("Accessible through public transit? Yes!");
-				dir.setText("Directions on Public Transport:\n\n\t Walk to the GO Bus stop on the North-East corner of the intersection at Kingston and Port Union. Get on the Westbound route 92 GO Bus to York Mills, get off and get on the Northbound route 60 GO Bus to Wonderland.");
-				desc.setText("Description of the Venue:\n\n\t Canada's Wonderland is a family oriented amusement park. There may be steep and thrilling rides but there is also a large childrens section as well as a theatre and many other activities for a fun day!");
+				location.setText("Address: \n\n\t\t 9580 Jane St, Vaughan (48.5 km from the campground)\n");
+				trans.setText("Accessible through public transit? \n\n\t\tYes!\n");
+				dir.setText("Directions on Public Transport:\n\n\t\t Walk to the GO Bus stop on the North-East corner of the intersection at Kingston and Port Union. Get on the Westbound route 92 GO Bus to York Mills, get off and get on the Northbound route 60 GO Bus to Wonderland.\n");
+				desc.setText("Description of the Venue:\n\n\t\t Canada's Wonderland is a family oriented amusement park. There may be steep and thrilling rides but there is also a large childrens section as well as a theatre and many other activities for a fun day!\n\n");
 				break;
 			case R.id.rom:
+				im.setImageResource(R.drawable.rom);
 				title.setText("Royal Ontario Museum");
-				location.setText("Address: 100 Queens Park, Toronto (32.3 km from the campground)");
-				trans.setText("Accessible through public transit? Yes!");
-				dir.setText("Directions on Public Transport:\n\n\t Walk to the GO Bus stop on the North-East corner of the intersection at Kingston and Port Union. Get on the Westbound route 92 GO Bus to Yorkdale, get off and get on the southbound TTC yellow line subway route. Take the subway to Museum Station and get off, upstairs is the museum!");
-				desc.setText("Description of the Venue:\n\n\t The Royal Ontario Museum is one of the largest and best museums in the world. It has everything from dinosaurs to mummified Egyptian remains to ancient Chinese pottery.");
+				location.setText("Address: \n\n\t\t 100 Queens Park, Toronto (32.3 km from the campground)\n");
+				trans.setText("Accessible through public transit?\n\n\t\t Yes!\n");
+				dir.setText("Directions on Public Transport:\n\n\t\t Walk to the GO Bus stop on the North-East corner of the intersection at Kingston and Port Union. Get on the Westbound route 92 GO Bus to Yorkdale, get off and get on the southbound TTC yellow line subway route. Take the subway to Museum Station and get off, upstairs is the museum!\n");
+				desc.setText("Description of the Venue:\n\n\t\t The Royal Ontario Museum is one of the largest and best museums in the world. It has everything from dinosaurs to mummified Egyptian remains to ancient Chinese pottery.\n\n");
 				break;
 			case R.id.tower:
+				im.setImageResource(R.drawable.tower);
 				title.setText("CN Tower");
-				location.setText("Address: 301 Front St W, Toronto (35.9 km's from the campground)");
-				trans.setText(" Accessible through public transit? Yes!  " );
-				dir.setText("Directions on Public Transport: \n\n\tWalk to the TTC bus stop on the North-Wast corner of the intersection at Kingston and Port Union. Get on the bus and go to the Rouge Hill Train Station (any bus from this location will go to the train station). Buy a roundtrip ticket to Union Station, get on the train, get off at Union Station, and take the Skywalk straigh to the CN Tower!");
-				desc.setText("Description of the Venue:\n\n\t The CN Tower is one of the worlds largest towers, it has a great viewing deck, a glass floor, a restaurant, and the SkyWalk activity which allows you to walk outside!");
+				location.setText("Address: \n\n\t\t 301 Front St W, Toronto (35.9 km's from the campground)\n");
+				trans.setText("Accessible through public transit?\n\n\t\t Yes! \n " );
+				dir.setText("Directions on Public Transport: \n\n\t\t Walk to the TTC bus stop on the North-West corner of the intersection at Kingston and Port Union. Get on the southbound route 85 bus and go to the Rouge Hill Train Station (any bus from this location will go to the train station). Buy a roundtrip ticket to Union Station, get on the train, get off at Union Station, and take the Skywalk straight to the CN Tower!\n");
+				desc.setText("Description of the Venue:\n\n\t\t The CN Tower is one of the worlds largest towers, it has a great viewing deck, a glass floor, a restaurant, and the SkyWalk activity which allows you to walk outside!\n\n");
 				break;
 			case R.id.science:
-				title.setText("");
-				location.setText("");
-				trans.setText("");
-				dir.setText("");
-				desc.setText("");
+				im.setImageResource(R.drawable.science);
+				title.setText("Ontario Science Centre");
+				location.setText("Address: \n\n\t\t 770 Don Mills Rd, Toronto (23.7 km's from the campground)\n");
+				trans.setText("Accessible through public transit?\n\n\t\t Yes!\n");
+				dir.setText("Directions on Public Transport: \n\n\t\t Walk to the TTC bus stop on the North-East corner of the intersection at Kingston and Port Union. Get on the route 85A bus going Northbound to Don Mills Station. Get off at Don Mills Station and get on the Southbound route 25 bus to Rochefort Drive, you have arrived infront of the parking lot, follow the sidewalk southbound for a little bit and it will be right there!\n ");
+				desc.setText("Description of the Venue:\n\n\t\t The Ontario Science Centre is a very large facility dedicated to teaching about science, there's many fun things to do with and entertain the whole family!\n\n");
 				break;
 			case R.id.aquarium:
-				title.setText("");
-				location.setText("");
-				trans.setText("");
-				dir.setText("");
-				desc.setText("");
+				im.setImageResource(R.drawable.aquarium);
+				title.setText("Ripleys Aquarium of Canada");
+				location.setText("Address: \n\n\t\t 288 Bremner Blvd, Toronto (35.9 km's from the campground)\n");
+				trans.setText("Accessible through public transit?\n\n\t\t Yes!\n");
+				dir.setText("Directions on Public Transport: \n\n\t\t Walk to the TTC bus stop on the North-West corner of the intersection at Kingston and Port Union. Get on the southbound route 85 bus and go to the Rouge Hill Train Station (any bus from this location will go to the train station). Buy a roundtrip ticket to Union Station, get on the train, get off at Union Station, and take the Skywalk straight to the Aquarium!\n");
+				desc.setText("\n\nDescription of the Venue:\n\n\t\t The aquarium is one of Toronto's newest attractions, it is a great place to take the family and it is right beside the CN Tower which would make for a great outing!\n\n");
 				break;
 			case R.id.rogers:
-				title.setText("");
-				location.setText("");
-				trans.setText("");
-				dir.setText("");
-				desc.setText("");
+				
+				title.setText("Rogers Centre");
+				location.setText("Address:\n\n\t\t1 Blue Jays Way, Toronto (36.7 km's from the campground)\n");
+				trans.setText("Accessible through public transit?\n\n\t\t Yes!\n");
+				dir.setText("Directions on Public Transport: \n\n\t Walk to the TTC bus stop on the North-West corner of the intersection at Kingston and Port Union. Get on the southbound route 85 bus and go to the Rouge Hill Train Station (any bus from this location will go to the train station). Buy a roundtrip ticket to Union Station, get on the train, get off at Union Station, and take the Skywalk straight to the Roger's Centre!\n ");
+				desc.setText("Description of the Venue:\n\n\t The Rogers Centre is a stadium where sports games (baseball and football mostly) are held!\n\n");
 				break;
 			case R.id.zoo:
-				title.setText("");
-				location.setText("");
-				trans.setText("");
-				dir.setText("");
-				desc.setText("");
+				title.setText("Toronto Zoo");
+				location.setText("Address:\n\n\t\t2000 Meadowvale Road, Toronto (5.1 km's from the campground)\n");
+				trans.setText("Accessible through public transit? \n\n\t\t Yes!\n");
+				dir.setText("Directions on Public Transport: \n\n\t Walk to the TTC bus stop on the North-East corner of the intersection at Kingston and Port Union. Get on the route 85A bus going Northbound to the zoo.\n");
+				desc.setText("Description of the Venue:\n\n\t The Toronto Zoo is one of the largest and best zoos in the world, a great place for a family adventure!\n\n");
 				break;
 		}
 	}

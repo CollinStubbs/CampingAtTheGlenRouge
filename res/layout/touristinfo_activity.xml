@@ -8,6 +8,7 @@
         android:layout_width="match_parent"
     	android:layout_height="match_parent"
     	android:orientation="vertical"
+    	android:paddingTop="25dp"
     	android:gravity="center_horizontal">
     	
 	    <TextView
@@ -15,7 +16,7 @@
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
 	        android:text="@string/tourtitle" 
-	        android:textSize="22sp"
+	        android:textSize="28sp"
 	        android:textColor="@color/black"
 	        android:paddingTop="15dp"/>
 
@@ -25,6 +26,8 @@
 	        android:id="@+id/wonderland"
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
+	        	        android:textSize="22sp"
+	        
 	        android:background="@null"
 	        android:text=" 1. Canada's Wonderland" />
 	    <Button
@@ -33,6 +36,8 @@
 	        android:id="@+id/rom"
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
+	        	        android:textSize="22sp"
+	        
 	        android:background="@null"
 	        android:text=" 2. Royal Ontario Museum" />
 	    <Button
@@ -41,6 +46,8 @@
 	        android:id="@+id/tower"
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
+	        	        android:textSize="22sp"
+	        
 	        android:background="@null"
 	        android:text=" 3. CN Tower" />
 	    <Button
@@ -49,6 +56,8 @@
 	        android:id="@+id/science"
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
+	        	        android:textSize="22sp"
+	        
 	        android:background="@null"
 	        android:text=" 4. Ontario Science Centre" />
 	    <Button
@@ -57,6 +66,8 @@
 	        android:id="@+id/aquarium"
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
+	        	        android:textSize="22sp"
+	        
 	        android:background="@null"
 	        android:text=" 5. Ripleys Aquarium of Canada" />
 	    <Button
@@ -65,6 +76,8 @@
 	        android:id="@+id/rogers"
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
+	        	        android:textSize="22sp"
+	        
 	        android:background="@null"
 	        android:text=" 6. Rogers Centre" />
 	    <Button
@@ -73,6 +86,8 @@
 	        android:id="@+id/zoo"
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
+	        	        android:textSize="22sp"
+	        
 	        android:background="@null"
 	        android:text=" 7. Toronto Zoo" />
 	    

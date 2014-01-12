@@ -8,7 +8,6 @@
     <LinearLayout
 	    android:layout_width="match_parent"
 	    android:layout_height="wrap_content"
-	    android:gravity="center_horizontal"
 	    android:paddingTop="10dp"
 	    android:paddingLeft="10dp"
 	    android:paddingRight="10dp"
@@ -16,49 +15,49 @@
 	    android:orientation="vertical" 
 	    android:id="@+id/im"
 	    android:background="@color/tourcolor">
-			<RelativeLayout
-			    android:layout_width="wrap_content"
+			<LinearLayout
+			    android:layout_width="fill_parent"
 			    android:layout_height="wrap_content"
+			    android:orientation="vertical"
 			    android:gravity="center_horizontal">
-	        <ImageView
-	            android:gravity="center_horizontal"
-	            android:id="@+id/tpi"
-	            android:layout_width="wrap_content"
-	            android:layout_height="wrap_content"/>
-			</RelativeLayout>
-
-			        
-	   		    <TextView
-	   		        android:id="@+id/tpoptitle"
-	   		        android:layout_width="wrap_content"
-	   		        android:layout_height="wrap_content"
-	   		        android:textSize="24sp"
-	   		        android:textStyle="bold"
-	   		        android:textColor="@color/black"
-	   		         />
+			    
+		        <ImageView
+		            android:gravity="right"
+		            android:id="@+id/tpi"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"/>
+		        
+			</LinearLayout>
+   
+	   		<TextView
+   		        android:id="@+id/tpoptitle"
+   		        android:layout_width="wrap_content"
+   		        android:layout_height="wrap_content"
+   		        android:textSize="24sp"
+   		        android:textStyle="bold"
+   		        android:textColor="@color/black" />
+	   			
+			<TextView
+   		        android:id="@+id/tpoploc"
+   		        android:layout_width="wrap_content"
+   		        android:textColor="@color/black"
+   		        android:layout_height="wrap_content" />
+			<TextView
+   		        android:id="@+id/tpoptran"
+   		        android:layout_width="wrap_content"
+   		        android:textColor="@color/black"
+   		        android:layout_height="wrap_content" />
+			<TextView
+   		        android:id="@+id/tpopdir"
+   		        android:layout_width="wrap_content"
+   		        android:textColor="@color/black"
+   		        android:layout_height="wrap_content" />
 
 	
-	<TextView
-	   		        android:id="@+id/tpoploc"
-	   		        android:layout_width="wrap_content"
-	   		        android:textColor="@color/black"
-	   		        android:layout_height="wrap_content" />
-
-	<TextView
-	   		        android:id="@+id/tpopdir"
-	   		        android:layout_width="wrap_content"
-	   		        android:textColor="@color/black"
-	   		        android:layout_height="wrap_content" />
-	<TextView
-	   		        android:id="@+id/tpoptran"
-	   		        android:layout_width="wrap_content"
-	   		        android:textColor="@color/black"
-	   		        android:layout_height="wrap_content" />
-	
-	<TextView
-	   		        android:id="@+id/tpopdesc"
-	   		        android:layout_width="wrap_content"
-	   		        android:textColor="@color/black"
-	   		        android:layout_height="wrap_content" />
+			<TextView
+   		        android:id="@+id/tpopdesc"
+   		        android:layout_width="wrap_content"
+   		        android:textColor="@color/black"
+   		        android:layout_height="wrap_content" />
 	</LinearLayout>
 </ScrollView>

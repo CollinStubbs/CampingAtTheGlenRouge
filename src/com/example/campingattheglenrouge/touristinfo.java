@@ -123,7 +123,8 @@ public class touristinfo extends Activity implements OnClickListener{
 					desc.setText("\n\nDescription of the Venue:\n\n\t\t The aquarium is one of Toronto's newest attractions, it is a great place to take the family and it is right beside the CN Tower which would make for a great outing!\n\n");
 					break;
 				case R.id.rogers:
-					
+					im.setImageResource(R.drawable.rogers);
+
 					title.setText("Rogers Centre");
 					location.setText("Address:\n\n\t\t1 Blue Jays Way, Toronto (36.7 km's from the campground)\n");
 					trans.setText("Accessible through public transit?\n\n\t\t Yes!\n");
@@ -131,6 +132,7 @@ public class touristinfo extends Activity implements OnClickListener{
 					desc.setText("Description of the Venue:\n\n\t The Rogers Centre is a stadium where sports games (baseball and football mostly) are held!\n\n");
 					break;
 				case R.id.zoo:
+					im.setImageResource(R.drawable.zoo);
 					title.setText("Toronto Zoo");
 					location.setText("Address:\n\n\t\t2000 Meadowvale Road, Toronto (5.1 km's from the campground)\n");
 					trans.setText("Accessible through public transit? \n\n\t\t Yes!\n");

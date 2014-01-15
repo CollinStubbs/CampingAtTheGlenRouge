@@ -30,4 +30,12 @@
         <item>How To Book a Site</item>
         <item>Group Camping Information</item>
     </string-array>
+    	 <string-array name="campOptions">
+    	<item>What should I bring?</item>
+        <item>How to make a fire!</item>
+        <item>How to set up a tent!</item>
+        <item>How to cook on a fire!</item>
+
+    </string-array>
+	 <string name="qct"><u>Quick Camping Tips</u></string>
 </resources>

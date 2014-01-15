@@ -17,7 +17,6 @@ import android.widget.*;
 
 public class activities extends Activity implements OnClickListener{
     PopupWindow pw;
-    Button dis;
     
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,6 +47,10 @@ public class activities extends Activity implements OnClickListener{
        Button vp =(Button)findViewById(R.id.vistapop);
        vp.setOnClickListener(this);
        
+       Button wp =(Button)findViewById(R.id.woodlandpop);
+       wp.setOnClickListener(this);
+       
+       
        Button gp =(Button)findViewById(R.id.guidepop);
        gp.setOnClickListener(this);
     }
@@ -58,11 +61,8 @@ public class activities extends Activity implements OnClickListener{
         (ViewGroup) findViewById(R.id.im));
         pw = new PopupWindow(layout, ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT, true);
         pw.setBackgroundDrawable(new BitmapDrawable());
-        pw.showAtLocation(layout, Gravity.CENTER, 0, 0);
-       
-
-        dis = (Button) layout.findViewById(R.id.dismiss2);
-        dis.setOnClickListener(cancel_button_click_listener);
+        pw.showAtLocation(layout, Gravity.TOP, 0, 0);
+      
         TouchImageView touch = (TouchImageView)layout.findViewById(R.id.imageView1);
         
         switch(v.getId()){
@@ -101,12 +101,6 @@ public class activities extends Activity implements OnClickListener{
         // TODO Auto-generated method stub
         
     }
-    private OnClickListener cancel_button_click_listener = new OnClickListener() {
-        public void onClick(View v) {
-        pw.dismiss();
-
-        }
-        };
 
 
 }

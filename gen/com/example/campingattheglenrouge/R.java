@@ -271,6 +271,7 @@ public final class R {
         public static final int app_name=0x7f060000;
         public static final int cal=0x7f06000b;
         public static final int calendar=0x7f060003;
+        public static final int events=0x7f060017;
         public static final int formore=0x7f06000f;
         public static final int grc=0x7f060004;
         public static final int hello_world=0x7f060002;
@@ -278,13 +279,14 @@ public final class R {
         public static final int info=0x7f06000a;
         public static final int infoChoice=0x7f06000e;
         public static final int infoTitle=0x7f060015;
-        public static final int qct=0x7f060017;
+        public static final int qct=0x7f060019;
         public static final int ruleChoice=0x7f06000d;
         public static final int ruleTitle=0x7f060014;
         public static final int the=0x7f060005;
         public static final int tips=0x7f06000c;
         public static final int tour=0x7f060008;
         public static final int tourtitle=0x7f060012;
+        public static final int unfortune=0x7f060018;
         public static final int wild=0x7f060009;
         public static final int wildtext=0x7f060010;
     }

@@ -24,6 +24,8 @@
 	<string name="ruleTitle"><u>Rules</u></string>
 	<string name="infoTitle"><u>General Info.</u></string>
 	<string name="acttit"><u>Activities Within The Rouge</u>\n</string>
+	<string name="events"><u>Events Within The Campground</u></string>
+	<string name="unfortune">As of the time of development, the programmer has not been made aware of any events, but please update when prompted as there will be some to come!</string>
 	 <string-array name="infoOptions">
         <item>Hours Of Operation</item>
         <item>What We Sell</item>

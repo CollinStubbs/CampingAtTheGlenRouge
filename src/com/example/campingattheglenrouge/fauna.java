@@ -69,7 +69,7 @@ public class fauna extends Activity implements OnClickListener {
 			.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 			View layout = inflater.inflate(R.layout.faunapop,
 			(ViewGroup) findViewById(R.id.fpl));
-			pw = new PopupWindow(layout, 600, 670, true);
+			pw = new PopupWindow(layout, getApplicationContext().getResources().getDisplayMetrics().widthPixels, getApplicationContext().getResources().getDisplayMetrics().heightPixels, true);
 	        pw.setBackgroundDrawable(new BitmapDrawable());
 			pw.showAtLocation(layout, Gravity.CENTER, 0, 0);
 			
@@ -82,7 +82,7 @@ public class fauna extends Activity implements OnClickListener {
 	  switch(v.getId()){
 		case R.id.Button1:
 			profile = (ImageView) layout.findViewById(R.id.profile);
-			profile.setImageResource(R.drawable.deer);//crashes here
+			profile.setImageResource(R.drawable.deer1);//crashes here
 						
 			name = (TextView) layout.findViewById(R.id.name);
 			name.setText("\n\nName:\n\n\t White-Tailed Deer\n\n");
@@ -112,7 +112,7 @@ public class fauna extends Activity implements OnClickListener {
 		case R.id.Button2:
 			
 			profile = (ImageView) layout.findViewById(R.id.profile);
-			profile.setImageResource(R.drawable.raccoon);
+			profile.setImageResource(R.drawable.raccoon1);
 						
 			name = (TextView) layout.findViewById(R.id.name);
 			name.setText("\n\nName:\n\n\t Raccoon\n\n");
@@ -139,7 +139,7 @@ public class fauna extends Activity implements OnClickListener {
 		case R.id.Button3:
 			
 			profile = (ImageView) layout.findViewById(R.id.profile);
-			profile.setImageResource(R.drawable.groundhog);
+			profile.setImageResource(R.drawable.groundhog1);
 						
 			name = (TextView) layout.findViewById(R.id.name);
 			name.setText("\n\nName:\n\n\t Groundhog\n\n");
@@ -166,7 +166,7 @@ public class fauna extends Activity implements OnClickListener {
 		case R.id.Button4:
 			
 			profile = (ImageView) layout.findViewById(R.id.profile);
-			profile.setImageResource(R.drawable.egsquirrel);
+			profile.setImageResource(R.drawable.egsquirrel1);
 						
 			name = (TextView) layout.findViewById(R.id.name);
 			name.setText("\n\nName:\n\n\t Eastern Grey Squirrel\n\n");
@@ -193,7 +193,7 @@ public class fauna extends Activity implements OnClickListener {
 		case R.id.Button5:
 			
 			profile = (ImageView) layout.findViewById(R.id.profile);
-			profile.setImageResource(R.drawable.redsquirrel);
+			profile.setImageResource(R.drawable.redsquirrel1);
 						
 			name = (TextView) layout.findViewById(R.id.name);
 			name.setText("\n\nName:\n\n\t American Red Squirrel\n\n");
@@ -220,7 +220,7 @@ public class fauna extends Activity implements OnClickListener {
 		case R.id.Button6:
 			
 			profile = (ImageView) layout.findViewById(R.id.profile);
-			profile.setImageResource(R.drawable.bluejay);
+			profile.setImageResource(R.drawable.bluejay1);
 						
 			name = (TextView) layout.findViewById(R.id.name);
 			name.setText("\n\nName:\n\n\t Blue Jay\n\n");
@@ -273,7 +273,7 @@ public class fauna extends Activity implements OnClickListener {
 		case R.id.Button8:
 			
 			profile = (ImageView) layout.findViewById(R.id.profile);
-			profile.setImageResource(R.drawable.chick);
+			profile.setImageResource(R.drawable.chick1);
 						
 			name = (TextView) layout.findViewById(R.id.name);
 			name.setText("\n\nName:\n\n\t Black-Capped Chickadee \n\n");
@@ -300,7 +300,7 @@ public class fauna extends Activity implements OnClickListener {
 		case R.id.Button9:
 			
 			profile = (ImageView) layout.findViewById(R.id.profile);
-			profile.setImageResource(R.drawable.finch);
+			profile.setImageResource(R.drawable.finch1);
 						
 			name = (TextView) layout.findViewById(R.id.name);
 			name.setText("\n\nName:\n\n\t American Goldfinch \n\n");

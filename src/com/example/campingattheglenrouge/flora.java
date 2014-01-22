@@ -4,7 +4,9 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Point;
 import android.graphics.drawable.BitmapDrawable;
+import android.view.Display;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -67,10 +69,11 @@ public class flora extends Activity implements OnClickListener {
 		// TODO Auto-generated method stub
 		try {
 			// We need to get the instance of the LayoutInflater
+			
 			LayoutInflater inflater = (LayoutInflater) flora.this.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 			View layout = inflater.inflate(R.layout.florapop,
 			(ViewGroup) findViewById(R.id.fpl));
-			pw = new PopupWindow(layout, 600, 670, true);
+			pw = new PopupWindow(layout, getApplicationContext().getResources().getDisplayMetrics().widthPixels, getApplicationContext().getResources().getDisplayMetrics().heightPixels, true);
 	        pw.setBackgroundDrawable(new BitmapDrawable());
 
 			pw.showAtLocation(layout, Gravity.CENTER, 0, 0);

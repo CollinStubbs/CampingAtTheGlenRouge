@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:padding="15dp"
     android:layout_height="match_parent">
     <LinearLayout
 	    android:id="@+id/fpl"
 	    android:orientation="vertical"
 	    android:layout_width="match_parent"
 	    android:layout_height="match_parent"
+	    android:padding="10dp"
 	    android:background="@color/blacktran">
 	    <LinearLayout
 	    	android:id="@+id/topfpl"
@@ -22,23 +22,7 @@
 		        android:layout_width="fill_parent"
 		        android:layout_height="230dp"
 		        android:gravity="center_horizontal"
-		        />
-
-		    <LinearLayout
-		        android:orientation="vertical"
-		        android:layout_width="fill_parent" 
-		        android:layout_height="wrap_content"
-		        android:gravity="top|right">
-		        
-			     <Button
-			        android:id="@+id/dismiss"
-			        android:layout_width="38dp"
-			        android:layout_height="wrap_content"
-			        android:background="@drawable/disbut"
-			        android:text="Back"
-			        android:textColor="#AAFFFFFF" />
-		     </LinearLayout>
-		     
+		        />		     
 	    </LinearLayout>
 	    <TextView
 	        android:id="@+id/name"

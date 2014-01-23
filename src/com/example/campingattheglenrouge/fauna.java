@@ -28,7 +28,7 @@ public class fauna extends Activity implements OnClickListener {
     TextView lifespan;
     TextView size;
     TextView relatives;
-    Button dis;
+  
     
     
     @Override
@@ -74,8 +74,7 @@ public class fauna extends Activity implements OnClickListener {
 			pw.showAtLocation(layout, Gravity.CENTER, 0, 0);
 			
 
-			dis = (Button) layout.findViewById(R.id.dismiss);
-			dis.setOnClickListener(cancel_button_click_listener);
+			
 
 	
 	    	    // The code below assumes that the root container has an id called 'main'
@@ -328,12 +327,6 @@ public class fauna extends Activity implements OnClickListener {
 			e.printStackTrace();
 			}
 	}
-	private OnClickListener cancel_button_click_listener = new OnClickListener() {
-		public void onClick(View v) {
-		pw.dismiss();
-
-		}
-		};
 
 	
 }

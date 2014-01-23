@@ -8,23 +8,8 @@
         android:orientation="vertical"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
         android:background="@color/blacktran">
-		    <LinearLayout
-		        android:orientation="vertical"
-		        android:layout_width="fill_parent" 
-		        android:layout_height="wrap_content"
-		        android:paddingRight="20sp"
-		        android:gravity="top|right">
-		        
-			     <Button
-			         android:id="@+id/dismiss1"
-			         android:layout_width="wrap_content"
-			         android:layout_height="wrap_content"
-			         android:background="@drawable/disbut"
-			         android:text="  Back  "
-			         android:textColor="#AAFFFFFF" />
-
-		     </LinearLayout>
     <TextView
         android:paddingLeft="25sp"
         android:id="@+id/credview"

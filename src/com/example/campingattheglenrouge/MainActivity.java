@@ -25,7 +25,7 @@ import android.widget.TextView;
 
 public class MainActivity extends Activity implements OnClickListener {
 	PopupWindow pw;
-	Button dis;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -129,8 +129,7 @@ public class MainActivity extends Activity implements OnClickListener {
 			pw.showAtLocation(layout, Gravity.CENTER, 0, 0);
 			
 
-			dis = (Button) layout.findViewById(R.id.dismiss1);
-			dis.setOnClickListener(cancel_button_click_listener);
+			
 			
 			AssetManager am = this.getAssets();
 	        String readData = "";
@@ -156,12 +155,7 @@ public class MainActivity extends Activity implements OnClickListener {
 			cred.setText(readData);
 		}
 		}
-	private OnClickListener cancel_button_click_listener = new OnClickListener() {
-		public void onClick(View v) {
-		pw.dismiss();
 
-		}
-		};
 		
 	}
     

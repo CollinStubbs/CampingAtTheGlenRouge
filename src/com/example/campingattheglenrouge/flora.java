@@ -29,7 +29,6 @@ public class flora extends Activity implements OnClickListener {
     TextView life;
     TextView facts;
 
-    Button dis;
     
     
     @Override
@@ -79,15 +78,13 @@ public class flora extends Activity implements OnClickListener {
 			pw.showAtLocation(layout, Gravity.CENTER, 0, 0);
 			
 
-			dis = (Button) layout.findViewById(R.id.dismiss);
-			dis.setOnClickListener(cancel_button_click_listener);
 
 	
 	    	    // The code below assumes that the root container has an id called 'main'
 	  switch(v.getId()){
 		case R.id.Buttonf1:
 			profile = (ImageView) layout.findViewById(R.id.profile);
-			profile.setImageResource(R.drawable.aster);//crashes here
+			profile.setImageResource(R.drawable.aster1);//crashes here
 						
 			name = (TextView) layout.findViewById(R.id.name);
 			name.setText("\n\nName:\n\n\t Frost Aster\n\n");
@@ -103,7 +100,7 @@ public class flora extends Activity implements OnClickListener {
 			break;
 		case R.id.Buttonf2:
 			profile = (ImageView) layout.findViewById(R.id.profile);
-			profile.setImageResource(R.drawable.bracken);//crashes here
+			profile.setImageResource(R.drawable.bracken1);//crashes here
 						
 			name = (TextView) layout.findViewById(R.id.name);
 			name.setText("\n\nName:\n\n\t Eastern Bracken\n\n");
@@ -119,7 +116,7 @@ public class flora extends Activity implements OnClickListener {
 			break;
 		case R.id.Buttonf3:
 			profile = (ImageView) layout.findViewById(R.id.profile);
-			profile.setImageResource(R.drawable.chicory);//crashes here
+			profile.setImageResource(R.drawable.chicory1);//crashes here
 						
 			name = (TextView) layout.findViewById(R.id.name);
 			name.setText("\n\nName:\n\n\t Chicory\n\n");
@@ -136,7 +133,7 @@ public class flora extends Activity implements OnClickListener {
 			
 		case R.id.Buttonf4:
 			profile = (ImageView) layout.findViewById(R.id.profile);
-			profile.setImageResource(R.drawable.cucumber);//crashes here
+			profile.setImageResource(R.drawable.cucumber1);//crashes here
 						
 			name = (TextView) layout.findViewById(R.id.name);
 			name.setText("\n\nName:\n\n\t Wild Cucumber\n\n");
@@ -168,7 +165,7 @@ public class flora extends Activity implements OnClickListener {
 			break;
 		case R.id.Buttonf6:
 			profile = (ImageView) layout.findViewById(R.id.profile);
-			profile.setImageResource(R.drawable.maple);//crashes here
+			profile.setImageResource(R.drawable.maple1);//crashes here
 						
 			name = (TextView) layout.findViewById(R.id.name);
 			name.setText("\n\nName:\n\n\t Maple Tree\n\n");
@@ -184,7 +181,7 @@ public class flora extends Activity implements OnClickListener {
 			break;
 		case R.id.Buttonf7:
 			profile = (ImageView) layout.findViewById(R.id.profile);
-			profile.setImageResource(R.drawable.mustard);//crashes here
+			profile.setImageResource(R.drawable.mustard1);//crashes here
 						
 			name = (TextView) layout.findViewById(R.id.name);
 			name.setText("\n\nName:\n\n\t Garlic Mustard\n\n");
@@ -200,7 +197,7 @@ public class flora extends Activity implements OnClickListener {
 			break;
 		case R.id.Buttonf8:
 			profile = (ImageView) layout.findViewById(R.id.profile);
-			profile.setImageResource(R.drawable.perwinkle);//crashes here
+			profile.setImageResource(R.drawable.perwinkle1);//crashes here
 						
 			name = (TextView) layout.findViewById(R.id.name);
 			name.setText("\n\nName:\n\n\t Periwinkle\n\n");
@@ -232,7 +229,7 @@ public class flora extends Activity implements OnClickListener {
 			break;
 		/*case R.id.Buttonf10:
 			profile = (ImageView) layout.findViewById(R.id.profile);
-			profile.setImageResource(R.drawable.rose);//crashes here
+			profile.setImageResource(R.drawable.rose1);//crashes here
 						
 			name = (TextView) layout.findViewById(R.id.name);
 			name.setText("\n\nName:\n\n\t Prickly Wild Rose\n\n");
@@ -248,7 +245,7 @@ public class flora extends Activity implements OnClickListener {
 			break;*/
 		case R.id.Buttonf11:
 			profile = (ImageView) layout.findViewById(R.id.profile);
-			profile.setImageResource(R.drawable.susan);//crashes here
+			profile.setImageResource(R.drawable.susan1);//crashes here
 						
 			name = (TextView) layout.findViewById(R.id.name);
 			name.setText("\n\nName:\n\n\t Black-Eyed Susan\n\n");
@@ -267,12 +264,6 @@ public class flora extends Activity implements OnClickListener {
 			e.printStackTrace();
 			}
 	}
-	private OnClickListener cancel_button_click_listener = new OnClickListener() {
-		public void onClick(View v) {
-		pw.dismiss();
-
-		}
-		};
 
 	
 }

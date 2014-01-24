@@ -4,7 +4,8 @@
     <string name="app_name">Camping at the Glen Rouge</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
-    <string name="calendar">Calendar</string>
+    <string name="calendar">Calendar &amp; Maps</string>
+    <string name="maps"><u>Maps</u></string>
     <string name="grc">Glen Rouge</string>
     <string name="the">The</string>
     <string name="activity">&#160;&#160;Activities&#160;&#160;</string>
@@ -12,7 +13,7 @@
     <string name="tour">&#160;&#160;Tourism&#160;&#160;&#160;</string>
     <string name="wild">&#160;&#160;&#160;Wildlife&#160;&#160;&#160;</string>
     <string name="info">&#160;&#160;&#160;Info.  &amp; &#160;&#160;\n Rules&#160;</string>
-    <string name="cal">&#160;&#160;Calendar&#160;&#160;</string>
+    <string name="cal">&#160;&#160;Events &amp;&#160;&#160;\n Maps&#160;&#160;</string>
     <string name="tips">&#160;Camping&#160;\n Tips&#160;</string>
     <string name="ruleChoice">1.&#160;&#160;&#160; Rules </string>
     <string name="infoChoice">2. &#160;&#160;&#160;Information</string>
@@ -26,11 +27,18 @@
 	<string name="acttit"><u>Activities Within The Rouge</u>\n</string>
 	<string name="events"><u>Events Within The Campground</u></string>
 	<string name="unfortune">As of the time of development, the programmer has not been made aware of any events, but please update when prompted as there will be some to come!</string>
+	 <string name="choice"><u>What would you like to see?</u></string>
 	 <string-array name="infoOptions">
         <item>Hours Of Operation</item>
         <item>What We Sell</item>
         <item>How To Book a Site</item>
         <item>Group Camping Information</item>
+        </string-array>
+     <string-array name="mapOptions">
+        <item>Grocery Stores</item>
+        <item>Restaurants</item>
+        <item>Beaches</item>
+        <item>Hardware/Camp Supplies</item>
     </string-array>
     	 <string-array name="campOptions">
     	<item>What should I bring?</item>

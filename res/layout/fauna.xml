@@ -31,7 +31,7 @@
             android:id="@+id/Button1"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:background="@color/wildcolour"
+            android:background="@drawable/highlight_wild"
             android:text="White-Tailed Deer" 
             android:textColor="@color/black"/>
     </LinearLayout>
@@ -58,7 +58,7 @@
                         android:id="@+id/Button2"
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
-                        android:background="@color/wildcolour"
+                        android:background="@drawable/highlight_wild"
                         android:text="Raccoon" />
         
     </LinearLayout>
@@ -81,7 +81,7 @@
                         android:id="@+id/Button3"
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
-                        android:background="@color/wildcolour"
+                        android:background="@drawable/highlight_wild"
                         android:text="Groundhog" />
     </LinearLayout>
          <LinearLayout 
@@ -103,7 +103,7 @@
                         android:id="@+id/Button4"
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
-                        android:background="@color/wildcolour"
+                        android:background="@drawable/highlight_wild"
                         android:text="Eastern Grey Squirrel" />
         
     </LinearLayout>
@@ -126,7 +126,7 @@
                         android:id="@+id/Button5"
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
-                        android:background="@color/wildcolour"
+                        android:background="@drawable/highlight_wild"
                         android:text="American Red Squirrel" />
         
     </LinearLayout>
@@ -149,7 +149,7 @@
                         android:id="@+id/Button6"
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
-                        android:background="@color/wildcolour"
+                        android:background="@drawable/highlight_wild"
                         android:text="Blue Jay" />
     </LinearLayout>
                <LinearLayout 
@@ -171,7 +171,7 @@
                         android:id="@+id/Button7"
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
-                        android:background="@color/wildcolour"
+                        android:background="@drawable/highlight_wild"
                         android:text="Downy Woodpecker" />
     </LinearLayout>
              <LinearLayout 
@@ -193,7 +193,7 @@
                         android:id="@+id/Button8"
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
-                        android:background="@color/wildcolour"
+                        android:background="@drawable/highlight_wild"
                         android:text="Black-Capped Chickadee" />
     </LinearLayout>
           <LinearLayout 
@@ -215,7 +215,7 @@
                         android:id="@+id/Button9"
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
-                        android:background="@color/wildcolour"
+                        android:background="@drawable/highlight_wild"
                         android:text="American Gold Finch" />
         
     </LinearLayout>

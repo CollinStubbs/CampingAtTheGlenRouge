@@ -31,7 +31,7 @@
             android:id="@+id/Buttonf1"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:background="@color/wildcolour"
+            android:background="@drawable/highlight_wild"
             android:text="Frost Aster" />
     </LinearLayout>
 
@@ -53,7 +53,7 @@
             android:id="@+id/Buttonf2"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:background="@color/wildcolour"
+            android:background="@drawable/highlight_wild"
             android:text="Eastern Bracken" />
     </LinearLayout>
 
@@ -76,7 +76,7 @@
                         android:id="@+id/Buttonf3"
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
-                        android:background="@color/wildcolour"
+                        android:background="@drawable/highlight_wild"
                         android:text="Chicory" />
     </LinearLayout>
          <LinearLayout 
@@ -98,7 +98,7 @@
                         android:id="@+id/Buttonf4"
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
-                        android:background="@color/wildcolour"
+                        android:background="@drawable/highlight_wild"
                         android:text="Wild Cucumber" />
         
     </LinearLayout>
@@ -121,7 +121,7 @@
                         android:id="@+id/Buttonf5"
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
-                        android:background="@color/wildcolour"
+                        android:background="@drawable/highlight_wild"
                         android:text="Queen Anne's Lace" />
         
     </LinearLayout>
@@ -144,7 +144,7 @@
                         android:id="@+id/Buttonf6"
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
-                        android:background="@color/wildcolour"
+                        android:background="@drawable/highlight_wild"
                         android:text="Maple Tree" />
     </LinearLayout>
                <LinearLayout 
@@ -166,7 +166,7 @@
                         android:id="@+id/Buttonf7"
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
-                        android:background="@color/wildcolour"
+                        android:background="@drawable/highlight_wild"
                         android:text="Garlic Mustard" />
     </LinearLayout>
              <LinearLayout 
@@ -188,7 +188,7 @@
                         android:id="@+id/Buttonf8"
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
-                        android:background="@color/wildcolour"
+                        android:background="@drawable/highlight_wild"
                         android:text="Periwinkle" />
     </LinearLayout>
           <LinearLayout 
@@ -210,7 +210,7 @@
                         android:id="@+id/Buttonf9"
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
-                        android:background="@color/wildcolour"
+                        android:background="@drawable/highlight_wild"
                         android:text="White Pine" />
         
     </LinearLayout>
@@ -234,7 +234,7 @@
                         android:id="@+id/Buttonf11"
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
-                        android:background="@color/wildcolour"
+                        android:background="@drawable/highlight_wild"
                         android:text="Black-Eyed Susan" />
         
     </LinearLayout>

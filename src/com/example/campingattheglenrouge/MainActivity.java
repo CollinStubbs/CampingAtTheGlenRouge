@@ -5,6 +5,9 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
+import android.media.AudioManager;
+import android.media.MediaPlayer;
+import android.net.Uri;
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Context;
@@ -20,11 +23,13 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.PopupWindow;
 import android.widget.TextView;
 
 public class MainActivity extends Activity implements OnClickListener {
 	PopupWindow pw;
+	MediaPlayer mMediaPlayer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +42,11 @@ public class MainActivity extends Activity implements OnClickListener {
         title.setTypeface(t);
         title2.setTypeface(t);
         setupButtonClickListener();
+        mMediaPlayer = new MediaPlayer();
+        mMediaPlayer = MediaPlayer.create(this, R.raw.sound);
+        mMediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
+        mMediaPlayer.setLooping(true);
+        mMediaPlayer.start();
     }
 
 
@@ -73,6 +83,12 @@ public class MainActivity extends Activity implements OnClickListener {
     	
     	Button credit = (Button)findViewById(R.id.credit);
     	credit.setOnClickListener(this);
+    	
+    	ImageButton audio = (ImageButton) findViewById(R.id.audio);
+    	audio.setOnClickListener(this);
+    	
+    	ImageButton call = (ImageButton) findViewById(R.id.phone);
+    	call.setOnClickListener(this);
     }
 
 
@@ -81,7 +97,23 @@ public class MainActivity extends Activity implements OnClickListener {
 		// TODO Auto-generated method stub
 		
 		switch(v.getId()){
-		
+		case R.id.audio:
+			if(mMediaPlayer.isPlaying()){
+				mMediaPlayer.stop();
+			}else{
+		        mMediaPlayer = new MediaPlayer();
+		        mMediaPlayer = MediaPlayer.create(this, R.raw.sound);
+		        mMediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
+		        mMediaPlayer.setLooping(true);
+		        mMediaPlayer.start();
+		    
+			}
+			break;
+		case R.id.phone:
+			Intent callIntent = new Intent(Intent.ACTION_DIAL);
+		    callIntent.setData(Uri.parse("tel:4162872267"));
+		    startActivity(callIntent);
+			break;
 		case R.id.ruleButton:
 			
 			Intent intent = new Intent(v.getContext(), rules.class);

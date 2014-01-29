@@ -3,6 +3,7 @@ package com.example.campingattheglenrouge;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.MapFragment;
 import com.google.android.gms.maps.MapsInitializer;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
@@ -32,6 +33,7 @@ public class maps extends Activity implements OnItemSelectedListener{
     Marker LP;
     Marker BP;
     Marker CTS;
+    Marker HD;
     
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -72,15 +74,15 @@ public class maps extends Activity implements OnItemSelectedListener{
 		LatLng noFrills = new LatLng(43.798149, -79.141233);
 	    NF = googleMap.addMarker(new MarkerOptions().
 	            position(noFrills).title("No Frills"));
-	    
+	    NF.showInfoWindow();
 	    LatLng metro = new LatLng(43.788651, -79.139576);
 	    M = googleMap.addMarker(new MarkerOptions().
 	            position(metro).title("Metro"));
-	    
+	    M.showInfoWindow();
 	    LatLng freshCo = new LatLng(43.818446, -79.118172);
 	    FC = googleMap.addMarker(new MarkerOptions().
 	            position(freshCo).title("FreshCo"));
-	    
+	    FC.showInfoWindow();
 	    LatLng rougeB = new LatLng(43.793557, -79.117920);
 	    RB = googleMap.addMarker(new MarkerOptions().
 	            position(rougeB).title("Rouge Beach"));
@@ -93,9 +95,13 @@ public class maps extends Activity implements OnItemSelectedListener{
 	    BP = googleMap.addMarker(new MarkerOptions().
 	            position(beachB).title("Beachpoint Beach"));
 	    
-	    LatLng canT = new LatLng(43.812543, -79.090883);
+	    LatLng canT = new LatLng(43.797228, -79.154135);
 	    CTS = googleMap.addMarker(new MarkerOptions().
 	            position(canT).title("Canadian Tire"));
+	    
+	    LatLng homeD = new LatLng(43.828652, -79.095277);
+	    HD = googleMap.addMarker(new MarkerOptions().
+	            position(homeD).title("Home Depot"));
         }catch(Exception e){
         	
         }
@@ -109,15 +115,26 @@ public class maps extends Activity implements OnItemSelectedListener{
 		// TODO Auto-generated method stub
 		switch((int) arg2){
 		case 0:
+			RB.setVisible(false);
+			LP.setVisible(false);
+			BP.setVisible(false);
 		   NF.setVisible(true);
+		   NF.showInfoWindow();
 		   M.setVisible(true);
+		   M.showInfoWindow();
 		   FC.setVisible(true);
+		   FC.showInfoWindow();
 		   BD.setVisible(false);
 		   WD.setVisible(false);
 		   MB.setVisible(false);
 		   MC.setVisible(false);
+		   CTS.setVisible(false);
+			HD.setVisible(false);
 			break;
 		case 1:
+			RB.setVisible(false);
+			LP.setVisible(false);
+			BP.setVisible(false);
 			MC.setVisible(true);
 			MB.setVisible(true);
 			WD.setVisible(true);
@@ -125,11 +142,29 @@ public class maps extends Activity implements OnItemSelectedListener{
 			NF.setVisible(false);
 			M.setVisible(false);
 			FC.setVisible(false);
+			CTS.setVisible(false);
+			HD.setVisible(false);
 			break;
 		case 2:
 			RB.setVisible(true);
 			LP.setVisible(true);
 			BP.setVisible(true);
+			NF.setVisible(false);
+			M.setVisible(false);
+			FC.setVisible(false);
+			BD.setVisible(false);
+			WD.setVisible(false);
+			MB.setVisible(false);
+			MC.setVisible(false);
+			CTS.setVisible(false);
+			HD.setVisible(false);
+			break;
+		case 3:
+			CTS.setVisible(true);
+			HD.setVisible(true);
+			RB.setVisible(false);
+			LP.setVisible(false);
+			BP.setVisible(false);
 			NF.setVisible(false);
 			NF.setVisible(false);
 			M.setVisible(false);
@@ -138,8 +173,6 @@ public class maps extends Activity implements OnItemSelectedListener{
 			WD.setVisible(false);
 			MB.setVisible(false);
 			MC.setVisible(false);
-			break;
-		case 3:
 			break;
 		}
 		

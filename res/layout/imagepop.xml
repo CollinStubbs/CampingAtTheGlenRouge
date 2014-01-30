@@ -14,7 +14,7 @@
 	    android:gravity="top"
 	    android:background="@color/actcolor">
 		
-	    <com.example.campingattheglenrouge.TouchImageView
+	    <collin.app1.campingattheglenrouge.TouchImageView
 	        android:id="@+id/imageView1"
 	        android:layout_width="fill_parent"
 	        android:layout_height="wrap_content"

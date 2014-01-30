@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.campingattheglenrouge"
+    package="collin.app1.campingattheglenrouge"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -8,9 +8,9 @@
         android:minSdkVersion="11"
         android:targetSdkVersion="17" />
     <permission
-    android:name="com.example.capingattheglenrouge.permission.MAPS_RECEIVE"
+    android:name="collin.app1.capingattheglenrouge.permission.MAPS_RECEIVE"
     android:protectionLevel="signature" />
-<uses-permission android:name="your.package.name.permission.MAPS_RECEIVE"/>
+<uses-permission android:name="collin.ap1.campingattheglenrouge.permission.MAPS_RECEIVE"/>
 <uses-permission android:name="android.permission.INTERNET" />
 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -26,10 +26,10 @@
         android:label="@string/app_name"
         android:theme="@android:style/Theme.NoTitleBar">
         <activity
-            android:name="com.example.campingattheglenrouge.MainActivity">
+            android:name="collin.app1.campingattheglenrouge.MainActivity">
         </activity>
         <activity
-            android:name="com.example.campingattheglenrouge.SplashScreen"
+            android:name="collin.app1.campingattheglenrouge.SplashScreen"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Black.NoTitleBar" >
             <intent-filter>
@@ -39,39 +39,39 @@
             </intent-filter>
         </activity>
         <activity
-            android:name = "com.example.campingattheglenrouge.activities">
+            android:name = "collin.app1.campingattheglenrouge.activities">
         </activity>
     	<activity 
-    	     android:name = "com.example.campingattheglenrouge.wildlife">
+    	     android:name = "collin.app1.campingattheglenrouge.wildlife">
     	</activity>
     	<activity 
-    	    android:name = "com.example.campingattheglenrouge.infotext"></activity>
+    	    android:name = "collin.app1.campingattheglenrouge.infotext"></activity>
         <activity 
-             android:name = "com.example.campingattheglenrouge.calendar">
+             android:name = "collin.app1.campingattheglenrouge.calendar">
             </activity>
             <activity 
-    	    android:name = "com.example.campingattheglenrouge.events"></activity>
+    	    android:name = "collin.app1.campingattheglenrouge.events"></activity>
         <activity 
-             android:name = "com.example.campingattheglenrouge.maps">
+             android:name = "collin.app1.campingattheglenrouge.maps">
             </activity>
         <activity
-             android:name = "com.example.campingattheglenrouge.campingtips">
+             android:name = "collin.app1.campingattheglenrouge.campingtips">
 		</activity>
 
         <activity 
-             android:name = "com.example.campingattheglenrouge.rules">
+             android:name = "collin.app1.campingattheglenrouge.rules">
         </activity>
         <activity 
-            android:name = "com.example.campingattheglenrouge.ruletext">
+            android:name = "collin.app1.campingattheglenrouge.ruletext">
         </activity>
         <activity 
-              android:name = "com.example.campingattheglenrouge.touristinfo">
+              android:name = "collin.app1.campingattheglenrouge.touristinfo">
         </activity>
         <activity 
-              android:name = "com.example.campingattheglenrouge.fauna">
+              android:name = "collin.app1.campingattheglenrouge.fauna">
         </activity>
         <activity 
-              android:name = "com.example.campingattheglenrouge.flora">
+              android:name = "collin.app1.campingattheglenrouge.flora">
         </activity>
         <meta-data
     		 android:name="com.google.android.maps.v2.API_KEY"

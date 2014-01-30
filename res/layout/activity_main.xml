@@ -1,142 +1,19 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout
+    android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="@drawable/layout3"
-    android:orientation="vertical"
     tools:context=".MainActivity" >
-
-    <TextView
-        android:id="@+id/title2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/title1"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="-10dp"
-        android:gravity="center_horizontal|bottom"
-        android:text="@string/grc"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:textColor="@color/silver"
-        android:textSize="@dimen/font_size"
-        android:textStyle="bold" />
-
-    <Button
-        android:id="@+id/touristButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/activityButton"
-        android:layout_toRightOf="@+id/title1"
-        android:background="@drawable/layout_bg"
-        android:drawableTop="@drawable/touricon"
-        android:paddingTop="6sp"
-        android:text="@string/tour"
-        android:textColor="@color/white"
-        android:textSize="@dimen/bts" />
-
-    <Button
-        android:id="@+id/wildButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/calendarButton"
-        android:layout_alignBottom="@+id/calendarButton"
-        android:layout_alignLeft="@+id/touristButton"
-        android:background="@drawable/layout_bg"
-        android:drawableTop="@drawable/animalicon"
-        android:paddingTop="6sp"
-        android:text="@string/wild"
-        android:textColor="@color/white"
-        android:textSize="@dimen/bts" />
-
-    <Button
-        android:id="@+id/ruleButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/campButton"
-        android:layout_alignBottom="@+id/campButton"
-        android:layout_toRightOf="@+id/title1"
-        android:background="@drawable/layout_bg"
-        android:drawableTop="@drawable/infoicon"
-        android:paddingTop="6sp"
-        android:text="@string/info"
-        android:textColor="@color/white"
-        android:textSize="@dimen/bts" />
-
-    <Button
-        android:id="@+id/calendarButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/activityButton"
-        android:layout_below="@+id/activityButton"
-        android:layout_marginTop="14dp"
-        android:background="@drawable/layout_bg"
-        android:drawableTop="@drawable/calendaricon"
-        android:paddingTop="6sp"
-        android:text="@string/cal"
-        android:textColor="@color/white"
-        android:textSize="@dimen/bts" />
-
-    <Button
-        android:id="@+id/campButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/calendarButton"
-        android:layout_below="@+id/calendarButton"
-        android:layout_marginTop="19dp"
-        android:background="@drawable/layout_bg"
-        android:drawableTop="@drawable/campicon"
-        android:paddingTop="6sp"
-        android:text="@string/tips"
-        android:textColor="@color/white"
-        android:textSize="@dimen/bts" />
-
-    <TextView
-        android:id="@+id/title1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="-10dp"
-        android:gravity="center_horizontal"
-        android:text="@string/the"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:textColor="@color/silver"
-        android:textSize="@dimen/title_top" />
-
-    <Button
-        android:id="@+id/activityButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/title2"
-        android:layout_marginTop="38dp"
-        android:layout_toLeftOf="@+id/title1"
-        android:background="@drawable/layout_bg"
-        android:drawableTop="@drawable/activityicon"
-        android:paddingTop="6sp"
-        android:text="@string/activity"
-        android:textColor="@color/white"
-        android:textSize="@dimen/bts" />
-    
-    <Button
-        android:id="@+id/credit"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/campButton"
-        android:text="Credits and Contributions"
-        android:background="@null"
-        android:paddingTop="30sp"
-        android:paddingLeft="95sp"
-        />
-
-    <ImageButton
-        android:id="@+id/audio"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
-        android:background="@null"
-        android:src="@drawable/aud" />
-
-    <ImageButton
+        <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:gravity="center_horizontal"
+    android:layout_height="wrap_content">
+        <ImageButton
         android:id="@+id/phone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -146,5 +23,166 @@
         android:layout_marginTop="6dp"
         android:background="@null"
         android:src="@drawable/phone_icon" />
+                <View
+	            android:layout_width="90dp"
+				android:layout_height="fill_parent"
+				android:background="@null" />
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:gravity="center_horizontal"
+        android:layout_marginBottom="-10dp"
+        android:layout_marginLeft="-15dp"
+        android:text="@string/the"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/silver"
+        android:textSize="@dimen/title_top" />
+            <View
+	            android:layout_width="90dp"
+				android:layout_height="fill_parent"
+				android:background="@null" />
+        <ImageButton
+        android:id="@+id/audio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@null"
+        android:src="@drawable/aud" />
+    
+    </LinearLayout>
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-10dp"
+        android:gravity="center_horizontal|bottom"
+        android:text="@string/grc"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/silver"
+        android:textSize="@dimen/font_size"
+        android:textStyle="bold" />
 
-</RelativeLayout>
+
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:gravity="center_horizontal"
+    android:layout_height="wrap_content">
+    
+        <Button
+        android:id="@+id/activityButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_bg"
+        android:drawableTop="@drawable/activityicon"
+        android:paddingTop="6sp"
+        android:text="@string/activity"
+        android:textColor="@color/white"
+        android:textSize="@dimen/bts" />
+        <View
+	            android:layout_width="70dp"
+				android:layout_height="fill_parent"
+				android:background="@null" />
+        <Button
+        android:id="@+id/touristButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_bg"
+        android:drawableTop="@drawable/touricon"
+        
+        android:paddingTop="6sp"
+        android:text="@string/tour"
+        android:textColor="@color/white"
+        android:textSize="@dimen/bts" />
+        </LinearLayout>
+            <LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:gravity="center_horizontal"
+    android:layout_height="wrap_content">
+            <Button
+        android:id="@+id/calendarButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/layout_bg"
+        android:drawableTop="@drawable/calendaricon"
+        android:paddingTop="6sp"
+        android:text="@string/cal"
+        android:textColor="@color/white"
+        android:textSize="@dimen/bts" />
+            <View
+	            android:layout_width="70dp"
+				android:layout_height="fill_parent"
+				android:background="@null" />
+    <Button
+        android:id="@+id/wildButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_bg"
+        android:drawableTop="@drawable/animalicon"
+                android:layout_marginTop="14dp"
+        
+        android:paddingTop="6sp"
+        android:text="@string/wild"
+        android:textColor="@color/white"
+        android:textSize="@dimen/bts" />
+
+ 
+</LinearLayout>
+    <LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:gravity="center_horizontal"
+    android:layout_height="wrap_content">
+
+
+    <Button
+        android:id="@+id/campButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/layout_bg"
+        android:drawableTop="@drawable/campicon"
+        android:paddingTop="6sp"
+        android:text="@string/tips"
+        android:textColor="@color/white"
+        android:textSize="@dimen/bts" />
+    <View
+	            android:layout_width="70dp"
+				android:layout_height="fill_parent"
+				android:background="@null" />
+       <Button
+        android:id="@+id/ruleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+        
+        android:background="@drawable/layout_bg"
+        android:drawableTop="@drawable/infoicon"
+        android:paddingTop="6sp"
+        android:text="@string/info"
+        android:textColor="@color/white"
+        android:textSize="@dimen/bts" />
+</LinearLayout>
+
+    
+    <Button
+        android:id="@+id/credit"
+        android:layout_width="fill_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:text="Credits and Contributions"
+        android:background="@null"
+        android:paddingTop="30sp"
+        
+        />
+</LinearLayout>
+</LinearLayout>
+</ScrollView>

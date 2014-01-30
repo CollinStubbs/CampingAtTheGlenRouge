@@ -147,6 +147,7 @@
         android:textSize="@dimen/bts" />
 </LinearLayout>
 <LinearLayout
+    android:paddingTop="20dp"
     android:orientation="horizontal"
     android:layout_width="fill_parent"
     android:gravity="center_horizontal"
@@ -158,7 +159,7 @@
         android:background="@null"
         android:src="@drawable/phone_icon" />
                 <View
-	            android:layout_width="3dp"
+	            android:layout_width="30dp"
 				android:layout_height="fill_parent"
 				android:background="@null" />
     <Button
@@ -172,7 +173,7 @@
         
         />
             <View
-	            android:layout_width="3dp"
+	            android:layout_width="30dp"
 				android:layout_height="fill_parent"
 				android:background="@null" />
         <ImageButton

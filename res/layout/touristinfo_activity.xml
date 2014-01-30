@@ -33,6 +33,7 @@
             android:textColor="@color/black"
             android:textSize="28sp" />
 	<LinearLayout
+	    android:paddingTop="10dp"
 	    android:paddingLeft="30dp"
 	    android:gravity="left"
 	    android:orientation="vertical"

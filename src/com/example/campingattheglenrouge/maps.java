@@ -56,52 +56,52 @@ public class maps extends Activity implements OnItemSelectedListener{
         MapsInitializer.initialize(this);
         LatLng blackDog = new LatLng(43.797896, -79.139111);
 		BD = googleMap.addMarker(new MarkerOptions().
-	            position(blackDog).title("The Black Dog Pub"));
+	            position(blackDog).title("The Black Dog Pub").snippet("http://blackdogpub.tv/"));
 		
 		LatLng wimpys = new LatLng(43.797234, -79.149837);
 		WD = googleMap.addMarker(new MarkerOptions().
-				position(wimpys).title("Wimpys Diner"));
+				position(wimpys).title("Wimpys Diner").snippet("http://wimpysdiner.ca/"));
 		
 		LatLng muchoBurrito = new LatLng(43.797538,-79.149169);
 		MB = googleMap.addMarker(new MarkerOptions().
-				position(muchoBurrito).title("Mucho Burrito "));
+				position(muchoBurrito).title("Mucho Burrito ").snippet("http://muchoburrito.ca/"));
 		
 		LatLng mcd = new LatLng(43.800225, -79.143521);
 		MC = googleMap.addMarker(new MarkerOptions().
-				position(mcd).title("McDonalds"));
+				position(mcd).title("McDonalds").snippet("http://www.mcdonalds.ca/ca/en.html"));
 		
 		//grocery
 		LatLng noFrills = new LatLng(43.798149, -79.141233);
 	    NF = googleMap.addMarker(new MarkerOptions().
-	            position(noFrills).title("No Frills"));
+	            position(noFrills).title("No Frills").snippet("http://www.nofrills.ca/LCLOnline/store_selector_map.jsp?_requestid=275626"));
 	    NF.showInfoWindow();
 	    LatLng metro = new LatLng(43.788651, -79.139576);
 	    M = googleMap.addMarker(new MarkerOptions().
-	            position(metro).title("Metro"));
+	            position(metro).title("Metro").snippet("http://www.metro.ca/home.en.html"));
 	    M.showInfoWindow();
 	    LatLng freshCo = new LatLng(43.818446, -79.118172);
 	    FC = googleMap.addMarker(new MarkerOptions().
-	            position(freshCo).title("FreshCo"));
+	            position(freshCo).title("FreshCo").snippet("http://www.freshco.com/Home.aspx"));
 	    FC.showInfoWindow();
 	    LatLng rougeB = new LatLng(43.793557, -79.117920);
 	    RB = googleMap.addMarker(new MarkerOptions().
-	            position(rougeB).title("Rouge Beach"));
+	            position(rougeB).title("Rouge Beach").snippet("http://www.rougepark.com/explore/interest/rouge_beach.php"));
 	    
 	    LatLng liverB = new LatLng(43.811955, -79.076850);
 	    LP = googleMap.addMarker(new MarkerOptions().
-	            position(liverB).title("Liverpool Beach"));
+	            position(liverB).title("Liverpool Beach").snippet("http://www.pickering.ca/en/discovering/beachfrontparkmillenniumsquare.asp"));
 	    
 	    LatLng beachB = new LatLng(43.812543, -79.090883);
 	    BP = googleMap.addMarker(new MarkerOptions().
-	            position(beachB).title("Beachpoint Beach"));
+	            position(beachB).title("Beachpoint Beach").snippet("http://www.pickering.ca/en/discovering/rotaryfrenchmansbaywestpark.asp"));
 	    
 	    LatLng canT = new LatLng(43.797228, -79.154135);
 	    CTS = googleMap.addMarker(new MarkerOptions().
-	            position(canT).title("Canadian Tire"));
+	            position(canT).title("Canadian Tire").snippet("http://www.canadiantire.ca/en.html"));
 	    
 	    LatLng homeD = new LatLng(43.828652, -79.095277);
 	    HD = googleMap.addMarker(new MarkerOptions().
-	            position(homeD).title("Home Depot"));
+	            position(homeD).title("Home Depot").snippet("http://www.homedepot.ca"));
         }catch(Exception e){
         	
         }

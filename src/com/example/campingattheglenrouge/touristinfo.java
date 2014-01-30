@@ -59,14 +59,19 @@ public class touristinfo extends Activity implements OnClickListener{
         ImageButton sights = (ImageButton) findViewById(R.id.pass);
         sights.setOnClickListener(this); 
    
+        ImageButton go = (ImageButton) findViewById(R.id.go);
+        go.setOnClickListener(this);
+  
         
+        ImageButton ttc = (ImageButton) findViewById(R.id.ttc);
+        ttc.setOnClickListener(this); 
         
     }
 
 	@Override
 	public void onClick(View v) {
 		
-		if(v.getId() != R.id.pass && v.getId() != R.id.tour){
+		if(v.getId() != R.id.pass && v.getId() != R.id.tour && v.getId() != R.id.go && v.getId() != R.id.ttc){
 			LayoutInflater inflater = (LayoutInflater) touristinfo.this
 			.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 			View layout = inflater.inflate(R.layout.tourpop,
@@ -154,7 +159,12 @@ public class touristinfo extends Activity implements OnClickListener{
 			case R.id.tour:
 				intent.setData(Uri.parse("http://www.citysightseeingtoronto.com/"));
 				break;
-				
+			case R.id.go:
+				intent.setData(Uri.parse("http://www.gotransit.ca/publicroot/en/default.aspx"));
+				break;
+			case R.id.ttc:
+				intent.setData(Uri.parse("http://www.ttc.ca/"));
+				break;	
 			}
 			startActivity(intent);
 		}

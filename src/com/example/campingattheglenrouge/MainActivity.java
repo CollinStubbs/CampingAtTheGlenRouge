@@ -155,7 +155,7 @@ public class MainActivity extends Activity implements OnClickListener {
 			LayoutInflater inflater = (LayoutInflater) MainActivity.this.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 			View layout = inflater.inflate(R.layout.creditpop,
 			(ViewGroup) findViewById(R.id.cr));
-			pw = new PopupWindow(layout, 600, 670, true);
+			pw = new PopupWindow(layout, getApplicationContext().getResources().getDisplayMetrics().widthPixels, getApplicationContext().getResources().getDisplayMetrics().heightPixels, true);
 	        pw.setBackgroundDrawable(new BitmapDrawable());
 
 			pw.showAtLocation(layout, Gravity.CENTER, 0, 0);

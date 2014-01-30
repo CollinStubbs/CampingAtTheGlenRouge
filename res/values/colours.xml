@@ -9,9 +9,11 @@
     <color name="whiteback">#99bdbdbd</color>
     <color name="rulecolor">#E8B8AA</color>
      <color name="actcolor">#A9DFED</color>
+     <color name="actcolorhigh">#D0F5E4</color>
       <color name="calcolor">#EFE4B0</color>
        <color name="campcolor">#ADC08F</color>
         <color name="tourcolor">#86FDC5</color>
+        <color name="tourcolourhigh">#C5FAE1</color>
          <color name="wildcolour">#CCB7DF</color>
          <color name="silver">#541129</color>
          <color name="spinColor">#DCDCDE</color>

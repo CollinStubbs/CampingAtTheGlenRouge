@@ -29,7 +29,7 @@ public class calendar extends Activity implements OnClickListener {
 		case R.id.maps:
 			//Intent intent = new Intent(arg0.getContext(), maps.class);
 			//startActivityForResult(intent, 0);
-			Toast.makeText(getApplicationContext(), "Sorry, currently unavailable.",
+			Toast.makeText(getApplicationContext(), "Sorry, Maps is currently unavailable.",
 					   Toast.LENGTH_LONG).show();
 			
 			break;

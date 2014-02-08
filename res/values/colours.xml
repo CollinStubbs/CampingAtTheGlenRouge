@@ -20,4 +20,6 @@
          <color name="spinColor">#DCDCDE</color>
          <color name="lesswhite">#FFDDDD</color>
          <color name="wildcolourhigh">#DFD5E8</color>
+         <color name="maincolourhigh">#44FFFFFF</color>
+         <color name="maincolournorm">#00FFFFFF</color>
 </resources>

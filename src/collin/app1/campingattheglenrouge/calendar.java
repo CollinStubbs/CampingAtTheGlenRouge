@@ -7,6 +7,7 @@ import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.Toast;
 import collin.app1.campingattheglenrouge.R;
  
 public class calendar extends Activity implements OnClickListener {
@@ -26,8 +27,10 @@ public class calendar extends Activity implements OnClickListener {
 		// TODO Auto-generated method stub
 		switch(arg0.getId()){
 		case R.id.maps:
-			Intent intent = new Intent(arg0.getContext(), maps.class);
-			startActivityForResult(intent, 0);
+			//Intent intent = new Intent(arg0.getContext(), maps.class);
+			//startActivityForResult(intent, 0);
+			Toast.makeText(getApplicationContext(), "Sorry, currently unavailable.",
+					   Toast.LENGTH_LONG).show();
 			
 			break;
 		case R.id.even:

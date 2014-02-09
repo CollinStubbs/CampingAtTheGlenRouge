@@ -12,6 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_width="fill_parent"
         android:gravity="center_horizontal"
+        android:paddingTop="15dp"
     android:orientation="vertical" >
     <ImageView
         android:id="@+id/imageView1"

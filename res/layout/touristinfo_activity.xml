@@ -47,7 +47,6 @@
             android:paddingBottom="7dp"
             android:paddingTop="6dp"
             android:text=" 1. Canada&apos;s Wonderland"
-            android:textStyle="bold"
             android:textSize="22sp" />
         
         <LinearLayout

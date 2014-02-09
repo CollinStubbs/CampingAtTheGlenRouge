@@ -246,7 +246,7 @@ public class fauna extends Activity implements OnClickListener {
 		case R.id.Button7:
 			
 			profile = (ImageView) layout.findViewById(R.id.profile);
-			profile.setImageResource(R.drawable.woodpecker);
+			profile.setImageResource(R.drawable.woodpecker1);
 						
 			name = (TextView) layout.findViewById(R.id.name);
 			name.setText("\n\nName:\n\n\t Downy Woodpecker\n\n");

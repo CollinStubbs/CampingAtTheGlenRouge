@@ -150,7 +150,7 @@ public class flora extends Activity implements OnClickListener {
 			break;
 		case R.id.Buttonf5:
 			profile = (ImageView) layout.findViewById(R.id.profile);
-			profile.setImageResource(R.drawable.lace);//crashes here
+			profile.setImageResource(R.drawable.lace1);//crashes here
 						
 			name = (TextView) layout.findViewById(R.id.name);
 			name.setText("\n\nName:\n\n\t Queen Anne's Lace\n\n");
@@ -214,7 +214,7 @@ public class flora extends Activity implements OnClickListener {
 			break;
 		case R.id.Buttonf9:
 			profile = (ImageView) layout.findViewById(R.id.profile);
-			profile.setImageResource(R.drawable.pine);//crashes here
+			profile.setImageResource(R.drawable.pine1);//crashes here
 						
 			name = (TextView) layout.findViewById(R.id.name);
 			name.setText("\n\nName:\n\n\t White Pine\n\n");

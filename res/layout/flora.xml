@@ -25,7 +25,7 @@
             android:id="@+id/imageView1"
             android:layout_width="182dp"
             android:layout_height="161dp"
-            android:src="@drawable/aster1" />
+            android:src="@drawable/aster" />
 
         <Button
             android:id="@+id/Buttonf1"
@@ -47,7 +47,7 @@
             android:id="@+id/imageView2"
             android:layout_width="182dp"
             android:layout_height="160dp"
-            android:src="@drawable/bracken1" />
+            android:src="@drawable/bracken" />
 
         <Button
             android:id="@+id/Buttonf2"
@@ -70,7 +70,7 @@
                 android:id="@+id/imageView3"
                 android:layout_width="181dp"
                 android:layout_height="160dp"
-                android:src="@drawable/chicory1" />
+                android:src="@drawable/chicory" />
 
         <Button
                         android:id="@+id/Buttonf3"
@@ -92,7 +92,7 @@
                 android:id="@+id/imageView4"
                 android:layout_width="178dp"
                 android:layout_height="178dp"
-                android:src="@drawable/cucumber1" />
+                android:src="@drawable/cucumber" />
 
             <Button
                         android:id="@+id/Buttonf4"
@@ -138,7 +138,7 @@
                 android:id="@+id/imageView6"
                 android:layout_width="174dp"
                 android:layout_height="140dp"
-                android:src="@drawable/maple1" />
+                android:src="@drawable/maple" />
 
         <Button
                         android:id="@+id/Buttonf6"
@@ -160,7 +160,7 @@
                 android:id="@+id/imageView7"
                 android:layout_width="178dp"
                 android:layout_height="157dp"
-                android:src="@drawable/mustard1" />
+                android:src="@drawable/mustard" />
 
         <Button
                         android:id="@+id/Buttonf7"
@@ -182,7 +182,7 @@
                 android:id="@+id/imageView8"
                 android:layout_width="181dp"
                 android:layout_height="152dp"
-                android:src="@drawable/perwinkle1" />
+                android:src="@drawable/perwinkle" />
 
         <Button
                         android:id="@+id/Buttonf8"
@@ -228,7 +228,7 @@
                 android:id="@+id/imageView11"
                 android:layout_width="182dp"
                 android:layout_height="134dp"
-                android:src="@drawable/susan1" />
+                android:src="@drawable/susan" />
 
             <Button
                         android:id="@+id/Buttonf11"

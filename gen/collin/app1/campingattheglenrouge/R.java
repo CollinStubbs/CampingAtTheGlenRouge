@@ -345,20 +345,21 @@ containing a value of this type.
         public static final int susan=0x7f02007a;
         public static final int susan1=0x7f02007b;
         public static final int tourback=0x7f02007c;
-        public static final int tourbuttonhigh=0x7f02007d;
-        public static final int touricon=0x7f02007e;
-        public static final int touristicon=0x7f02007f;
-        public static final int tower=0x7f020080;
-        public static final int ttc=0x7f020081;
-        public static final int vista=0x7f020082;
-        public static final int weed=0x7f020083;
-        public static final int weed1=0x7f020084;
-        public static final int wildback=0x7f020085;
-        public static final int wonderland=0x7f020086;
-        public static final int woodland=0x7f020087;
-        public static final int woodpecker=0x7f020088;
-        public static final int woodpecker1=0x7f020089;
-        public static final int zoo=0x7f02008a;
+        public static final int tourborder=0x7f02007d;
+        public static final int tourbuttonhigh=0x7f02007e;
+        public static final int touricon=0x7f02007f;
+        public static final int touristicon=0x7f020080;
+        public static final int tower=0x7f020081;
+        public static final int ttc=0x7f020082;
+        public static final int vista=0x7f020083;
+        public static final int weed=0x7f020084;
+        public static final int weed1=0x7f020085;
+        public static final int wildback=0x7f020086;
+        public static final int wonderland=0x7f020087;
+        public static final int woodland=0x7f020088;
+        public static final int woodpecker=0x7f020089;
+        public static final int woodpecker1=0x7f02008a;
+        public static final int zoo=0x7f02008b;
     }
     public static final class id {
         public static final int Button1=0x7f060029;

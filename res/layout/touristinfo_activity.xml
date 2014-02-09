@@ -33,7 +33,7 @@
             android:textColor="@color/black"
             android:textSize="28sp" />
 	<LinearLayout
-	    android:paddingTop="10dp"
+	    android:paddingTop="0dp"
 	    android:paddingLeft="30dp"
 	    android:gravity="left"
 	    android:orientation="vertical"
@@ -45,8 +45,9 @@
             android:layout_height="wrap_content"
             android:background="@drawable/tourbuttonhigh"
             android:paddingBottom="7dp"
-            android:paddingTop="7dp"
+            android:paddingTop="6dp"
             android:text=" 1. Canada&apos;s Wonderland"
+            android:textStyle="bold"
             android:textSize="22sp" />
         
         <LinearLayout
@@ -67,7 +68,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/tourbuttonhigh"
             android:paddingBottom="7dp"
-            android:paddingTop="7dp"
+            android:paddingTop="6dp"
             android:text=" 2. Royal Ontario Museum"
             android:textSize="22sp" />
 <LinearLayout
@@ -88,7 +89,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/tourbuttonhigh"
             android:paddingBottom="7dp"
-            android:paddingTop="7dp"
+            android:paddingTop="6dp"
             android:text=" 3. CN Tower"
             android:textSize="22sp" />
 <LinearLayout
@@ -110,7 +111,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/tourbuttonhigh"
             android:paddingBottom="7dp"
-            android:paddingTop="7dp"
+            android:paddingTop="6dp"
             android:text=" 4. Ontario Science Centre"
             android:textSize="22sp" />
 <LinearLayout
@@ -132,7 +133,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/tourbuttonhigh"
             android:paddingBottom="7dp"
-            android:paddingTop="7dp"
+            android:paddingTop="6dp"
             android:text=" 5. Ripleys Aquarium"
             android:textSize="22sp" />
 <LinearLayout
@@ -154,7 +155,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/tourbuttonhigh"
             android:paddingBottom="7dp"
-            android:paddingTop="7dp"
+            android:paddingTop="6dp"
             android:text=" 6. Rogers Centre"
             android:textSize="22sp" />
 <LinearLayout
@@ -176,7 +177,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/tourbuttonhigh"
             android:paddingBottom="7dp"
-            android:paddingTop="7dp"
+            android:paddingTop="6dp"
             android:text=" 7. Toronto Zoo"
             android:textSize="22sp" />
 <LinearLayout
@@ -205,12 +206,12 @@
             android:id="@+id/tour"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="7dp"
+            android:paddingTop="4dp"
             android:background="@null"
             android:src="@drawable/sights" />
         <View
 	            android:layout_width="fill_parent"
-				android:layout_height="7dp"
+				android:layout_height="4dp"
 				android:background="@null" />
 <LinearLayout
     android:layout_width="fill_parent"
@@ -224,17 +225,17 @@
 				android:background="@null" />
         <ImageButton
             android:id="@+id/go"
-            android:layout_width="120dp"
+            android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:background="@null"
             android:src="@drawable/go" />
         <View
-	            android:layout_width="20dp"
+	            android:layout_width="7dp"
 				android:layout_height="fill_parent"
 				android:background="@null" />
         <ImageButton
             android:id="@+id/ttc"
-            android:layout_width="120dp"
+            android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:background="@null"
             android:src="@drawable/ttc" />
@@ -243,10 +244,7 @@
 				android:layout_height="fill_parent"
 				android:background="@null" />
 </LinearLayout>
-<View
-	            android:layout_width="fill_parent"
-				android:layout_height="15dp"
-				android:background="@null" />
+
     </LinearLayout>
     </LinearLayout>
 

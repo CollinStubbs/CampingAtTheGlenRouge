@@ -127,5 +127,16 @@
 	        android:paddingTop="7sp"
 	        android:text="Click here for the Rouge Park Visitors Code"
 	        android:textSize="18sp" />
+
+	    <TextView
+	        android:id="@+id/textView3"
+	        android:gravity="center"
+	        android:layout_width="wrap_content"
+	        android:paddingTop="15dp"
+	        android:padding="15dp"
+	        android:textColor="@color/black"
+	        android:layout_height="wrap_content"
+	        android:text="***All images on this page are subjected to a Copyright by Rouge Park***" />
+
 </LinearLayout>
 </ScrollView>

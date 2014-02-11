@@ -15,10 +15,7 @@
 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
-<!-- The following two permissions are not required to use
-     Google Maps Android API v2, but are recommended. -->
-<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
-<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/newlogo"
@@ -72,11 +69,12 @@
         <activity 
               android:name = "collin.app1.campingattheglenrouge.flora">
         </activity>
+        
+        <meta-data android:name="com.google.android.gms.version"
+             android:value="@integer/google_play_services_version"/>
         <meta-data
     		 android:name="com.google.android.maps.v2.API_KEY"
-   			 android:value="AIzaSyCsnxx4KSC1yx_Fup3dMo7pIpCcipnACqI" />
-        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
-        
+   			 android:value="AIzaSyDDeraVYtPNWYu-mOvBe8qFy09ZVzijuGs" />
     </application>
 
 </manifest>

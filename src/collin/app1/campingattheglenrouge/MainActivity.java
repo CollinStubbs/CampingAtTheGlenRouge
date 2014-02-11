@@ -49,8 +49,11 @@ public class MainActivity extends Activity implements OnClickListener {
         mMediaPlayer.setLooping(true);
         mMediaPlayer.start();
     }
-
-
+  
+    protected void onDestroy(){
+    	super.onDestroy();
+    	mMediaPlayer.stop();
+    }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.

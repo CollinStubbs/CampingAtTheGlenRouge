@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Camping at the Glen Rouge</string>
+    <string name="name">Camping at the Glen Rouge</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
     <string name="calendar">Calendar &amp; Maps</string>

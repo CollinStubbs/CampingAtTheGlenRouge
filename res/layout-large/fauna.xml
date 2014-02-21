@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/faunaMainLay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/wildcolour" >
+
+<LinearLayout
+    android:id="@+id/faunaMainLay2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/wildcolour">  
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layoutborder"
+        android:orientation="horizontal"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="165dp"
+                android:layout_height="wrap_content"
+            android:src="@drawable/deer" />
+
+        <Button
+            android:id="@+id/Button1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/highlight_wild"
+            android:text="White-Tailed Deer" 
+            android:textSize="35sp"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+     <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dip"
+        android:paddingBottom="5dip"
+        android:background="@drawable/layoutborder"
+        android:gravity="right"
+        >
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="165dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/raccoon"
+                android:gravity="right"
+                 />
+
+                    <Button
+                        android:id="@+id/Button2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/highlight_wild"
+                        android:textSize="35sp"
+                        android:text="Raccoon" />
+        
+    </LinearLayout>
+     <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+                android:paddingTop="5dip"
+        android:paddingBottom="5dip"
+        android:background="@drawable/layoutborder"
+        >
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="165dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/groundhog" />
+
+        <Button
+                        android:id="@+id/Button3"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/highlight_wild"
+                        android:textSize="35sp"
+                        android:text="Groundhog" />
+    </LinearLayout>
+         <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+                android:paddingTop="5dip"
+        android:paddingBottom="5dip"
+        android:background="@drawable/layoutborder"
+        >
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="165dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/egsquirrel" />
+
+            <Button
+                        android:id="@+id/Button4"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/highlight_wild"
+                        android:textSize="35sp"
+                        android:text="Eastern Grey Squirrel" />
+        
+    </LinearLayout>
+             <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+                android:paddingTop="5dip"
+        android:paddingBottom="5dip"
+        android:background="@drawable/layoutborder"
+        >
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="165dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/redsquirrel" />
+
+            <Button
+                        android:id="@+id/Button5"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/highlight_wild"
+                        android:textSize="35sp"
+                        android:text="American Red Squirrel" />
+        
+    </LinearLayout>
+             <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+                android:paddingTop="5dip"
+        android:paddingBottom="5dip"
+        android:background="@drawable/layoutborder"
+        >
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="165dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bluejay" />
+
+        <Button
+                        android:id="@+id/Button6"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/highlight_wild"
+                        android:textSize="35sp"
+                        android:text="Blue Jay" />
+    </LinearLayout>
+               <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+                android:paddingTop="5dip"
+        android:paddingBottom="5dip"
+        android:background="@drawable/layoutborder"
+        >
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="165dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/woodpecker" />
+
+        <Button
+                        android:id="@+id/Button7"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:textSize="35sp"
+                        android:background="@drawable/highlight_wild"
+                        android:text="Downy Woodpecker" />
+    </LinearLayout>
+             <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+                android:paddingTop="5dip"
+        android:paddingBottom="5dip"
+        android:background="@drawable/layoutborder"
+        >
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="165dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/chick" />
+
+        <Button
+                        android:id="@+id/Button8"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:textSize="35sp"
+                        android:background="@drawable/highlight_wild"
+                        android:text="Black-Capped Chickadee" />
+    </LinearLayout>
+          <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+                android:paddingTop="5dip"
+        android:paddingBottom="5dip"
+        android:background="@drawable/layoutborder"
+        >
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="165dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/finch" />
+
+            <Button
+                        android:id="@+id/Button9"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:textSize="35sp"
+                        android:background="@drawable/highlight_wild"
+                        android:text="American Gold Finch" />
+        
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>

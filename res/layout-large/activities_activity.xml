@@ -11,7 +11,7 @@
     android:background="@color/actcolor"
     android:gravity="center_horizontal"
     android:orientation="vertical" 
-    android:paddingTop="35sp">
+    android:paddingTop="45sp">
 
     <TextView
         android:id="@+id/textView2"
@@ -19,26 +19,25 @@
         android:layout_height="wrap_content"
         android:text="@string/acttit"
         android:textColor="@color/black"
-        android:textSize="23sp"
-        android:paddingBottom="15dp" />
+        android:textSize="32sp"
+        android:paddingBottom="25dp" />
 
     <Button
         android:id="@+id/mappop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#77FFFFFF"
-        android:paddingBottom="7sp"
-        android:paddingTop="7sp"
+        android:padding="13dp"
         android:text="Click here for a full trail map of the Rouge Valley"
-        android:textSize="18sp" />
+        android:textSize="24sp" />
 
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="\n\nClick below for information on\n\t\t\t the indiviual trails:\n"
+        android:text="\nClick below for information on\n\t\t\t the indiviual trails:\n"
         android:textColor="@color/black"
-        android:textSize="16sp"
+        android:textSize="28sp"
 		android:paddingBottom="5dp"
         />
     <LinearLayout
@@ -52,8 +51,8 @@
 		        android:layout_height="wrap_content"
 		        android:background="@drawable/activitybuttonhigh"
 		        android:text="1. The Rouge Beach Trail"
-		        android:textSize="16sp"
-		        android:paddingBottom="5dp" />
+		        android:textSize="22sp"
+		        android:paddingBottom="20dp" />
 		
 		    <Button
 		        android:id="@+id/cedarpop"
@@ -61,8 +60,8 @@
 		        android:layout_height="wrap_content"
 		        android:background="@drawable/activitybuttonhigh"
 		        android:text="2. Cedar Trail" 
-		        android:textSize="16sp"
-		        android:paddingBottom="5dp"/>
+		        android:textSize="22sp"
+		        android:paddingBottom="20dp"/>
 		
 		    <Button
 		        android:id="@+id/eaglepop"
@@ -70,8 +69,8 @@
 		        android:layout_height="wrap_content"
 		        android:background="@drawable/activitybuttonhigh"
 		        android:text="3. Glen Eagles Vista Trail" 
-		        android:textSize="16sp"
-		        android:paddingBottom="5dp"/>
+		        android:textSize="22sp"
+		        android:paddingBottom="20dp"/>
 		
 		    <Button
 		        android:id="@+id/mastpop"
@@ -79,8 +78,8 @@
 		        android:layout_height="wrap_content"
 		        android:background="@drawable/activitybuttonhigh"
 		        android:text="4. Mast Trail" 
-		        android:textSize="16sp"
-		        android:paddingBottom="5dp"/>
+		        android:textSize="22sp"
+		        android:paddingBottom="20dp"/>
 		
 		    <Button
 		        android:id="@+id/meanderpop"
@@ -88,8 +87,8 @@
 		        android:layout_height="wrap_content"
 		        android:background="@drawable/activitybuttonhigh"
 		        android:text="5. Finch Meander Trail"
-		        android:textSize="16sp"
-		        android:paddingBottom="5dp" />
+		        android:textSize="22sp"
+		        android:paddingBottom="20dp" />
 		
 		    <Button
 		        android:id="@+id/orchardpop"
@@ -97,8 +96,8 @@
 		        android:layout_height="wrap_content"
 		        android:background="@drawable/activitybuttonhigh"
 		        android:text="6. Orchard Trail"
-		        android:textSize="16sp"
-		        android:paddingBottom="5dp" />
+		        android:textSize="22sp"
+		        android:paddingBottom="20dp" />
 		
 		    <Button
 		        android:id="@+id/vistapop"
@@ -106,8 +105,8 @@
 		        android:layout_height="wrap_content"
 		        android:background="@drawable/activitybuttonhigh"
 		        android:text="7. Vista Trail"
-		        android:textSize="16sp"
-		        android:paddingBottom="5dp" />
+		        android:textSize="22sp"
+		        android:paddingBottom="20dp" />
 		
 		    <Button
 		        android:id="@+id/woodlandpop"
@@ -115,18 +114,23 @@
 		        android:layout_height="wrap_content"
 		        android:background="@drawable/activitybuttonhigh"
 		        android:text="8. Woodland Trail"
-		        android:textSize="16sp"
-		        android:paddingBottom="5dp" />
+		        android:textSize="22sp"
+		        android:paddingBottom="20dp" />
 	</LinearLayout>
+	<View 
+	    android:layout_width="fill_parent"
+	    android:layout_height="40dp"
+	    android:background="@null"/>
+	
 	    <Button
 	        android:id="@+id/guidepop"
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
 	        android:background="#77FFFFFF"
-	        android:paddingBottom="7sp"
-	        android:paddingTop="7sp"
+	        android:padding="13dp"
+	       
 	        android:text="Click here for the Rouge Park Visitors Code"
-	        android:textSize="18sp" />
+	        android:textSize="28sp" />
 
 	    <TextView
 	        android:id="@+id/textView3"
@@ -136,6 +140,7 @@
 	        android:padding="15dp"
 	        android:textColor="@color/black"
 	        android:layout_height="wrap_content"
+	        android:textSize="19sp"
 	        android:text="***All images on this page are subjected to a Copyright by Rouge Park***" />
 
 </LinearLayout>

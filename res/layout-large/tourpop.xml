@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/tpl"
+    android:layout_height="wrap_content"
+    android:gravity="top"
+    android:background="@color/tourcolor">
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:paddingTop="10dp"
+	    android:paddingLeft="15dp"
+	    android:paddingRight="15dp"
+	    android:paddingBottom="10dp"
+	    android:orientation="vertical" 
+	    android:id="@+id/im"
+	    android:background="@color/tourcolor">
+			<LinearLayout
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:orientation="vertical"
+			    android:gravity="center_horizontal">
+			    
+		        <ImageView
+		            android:gravity="right"
+		            android:id="@+id/tpi"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"/>
+		        
+			</LinearLayout>
+   
+	   		<TextView
+   		        android:id="@+id/tpoptitle"
+   		        android:layout_width="fill_parent"
+   		        android:gravity="center_horizontal"
+   		        android:layout_height="wrap_content"
+   		        android:paddingBottom="15dp"
+   		        android:textSize="24sp"
+   		        android:textStyle="bold"
+   		        android:textColor="@color/black" />
+	   			
+			<TextView
+   		        android:id="@+id/tpoploc"
+   		        android:layout_width="wrap_content"
+   		        android:textSize="16sp"
+   		        android:textColor="@color/black"
+   		        android:layout_height="wrap_content" />
+			<TextView
+   		        android:id="@+id/tpoptran"
+   		        android:layout_width="wrap_content"
+   		        android:textSize="16sp"
+   		        android:textColor="@color/black"
+   		        android:layout_height="wrap_content" />
+			<TextView
+   		        android:id="@+id/tpopdir"
+   		        android:layout_width="wrap_content"
+   		        android:textSize="16sp"
+   		        android:textColor="@color/black"
+   		        android:layout_height="wrap_content" />
+
+	
+			<TextView
+   		        android:id="@+id/tpopdesc"
+   		        android:layout_width="wrap_content"
+   		        android:textSize="16sp"
+   		        android:textColor="@color/black"
+   		        android:layout_height="wrap_content" />
+	</LinearLayout>
+</ScrollView>

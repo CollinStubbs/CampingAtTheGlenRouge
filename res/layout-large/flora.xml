@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/floramainLay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/wildcolour" >
+
+<LinearLayout
+    android:id="@+id/floraMainLay2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/wildcolour">  
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layoutborder"
+        android:orientation="horizontal"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/aster" />
+
+        <Button
+            android:id="@+id/Buttonf1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/highlight_wild"
+            android:textSize="35sp"
+            android:text="Frost Aster" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layoutborder"
+        android:orientation="horizontal"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip" >
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bracken" />
+
+        <Button
+            android:id="@+id/Buttonf2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/highlight_wild"
+            android:textSize="35sp"
+            android:text="Eastern Bracken" />
+    </LinearLayout>
+
+     <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+                android:paddingTop="5dip"
+        android:paddingBottom="5dip"
+        android:background="@drawable/layoutborder"
+        >
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="200dp"
+            android:layout_height="wrap_content"
+                android:src="@drawable/chicory" />
+
+        <Button
+                        android:id="@+id/Buttonf3"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/highlight_wild"
+                        android:textSize="35sp"
+                        android:text="Chicory" />
+    </LinearLayout>
+         <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+                android:paddingTop="5dip"
+        android:paddingBottom="5dip"
+        android:background="@drawable/layoutborder"
+        >
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="200dp"
+            android:layout_height="wrap_content"
+                android:src="@drawable/cucumber" />
+
+            <Button
+                        android:id="@+id/Buttonf4"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/highlight_wild"
+                        android:textSize="35sp"
+                        android:text="Wild Cucumber" />
+        
+    </LinearLayout>
+             <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+                android:paddingTop="5dip"
+        android:paddingBottom="5dip"
+        android:background="@drawable/layoutborder"
+        >
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="200dp"
+            android:layout_height="wrap_content"
+                android:src="@drawable/lace" />
+
+            <Button
+                        android:id="@+id/Buttonf5"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/highlight_wild"
+                        android:textSize="35sp"
+                        android:text="Queen Anne's Lace" />
+        
+    </LinearLayout>
+             <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+                android:paddingTop="5dip"
+        android:paddingBottom="5dip"
+        android:background="@drawable/layoutborder"
+        >
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="200dp"
+            android:layout_height="wrap_content"
+                android:src="@drawable/maple" />
+
+        <Button
+                        android:id="@+id/Buttonf6"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:textSize="35sp"
+                        android:background="@drawable/highlight_wild"
+                        android:text="Maple Tree" />
+    </LinearLayout>
+               <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+                android:paddingTop="5dip"
+        android:paddingBottom="5dip"
+        android:background="@drawable/layoutborder"
+        >
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="200dp"
+            android:layout_height="wrap_content"
+                android:src="@drawable/mustard" />
+
+        <Button
+                        android:id="@+id/Buttonf7"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:textSize="35sp"
+                        android:background="@drawable/highlight_wild"
+                        android:text="Garlic Mustard" />
+    </LinearLayout>
+             <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+                android:paddingTop="5dip"
+        android:paddingBottom="5dip"
+        android:background="@drawable/layoutborder"
+        >
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="200dp"
+            android:layout_height="wrap_content"
+                android:src="@drawable/perwinkle" />
+
+        <Button
+                        android:id="@+id/Buttonf8"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:textSize="35sp"
+                        android:background="@drawable/highlight_wild"
+                        android:text="Periwinkle" />
+    </LinearLayout>
+          <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+                android:paddingTop="5dip"
+        android:paddingBottom="5dip"
+        android:background="@drawable/layoutborder"
+        >
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="200dp"
+            android:layout_height="wrap_content"
+                android:src="@drawable/pine" />
+
+            <Button
+                        android:id="@+id/Buttonf9"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:textSize="35sp"
+                        android:background="@drawable/highlight_wild"
+                        android:text="White Pine" />
+        
+    </LinearLayout>
+   
+              <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+                android:paddingTop="5dip"
+        android:paddingBottom="5dip"
+        android:background="@drawable/layoutborder"
+        >
+
+            <ImageView
+                android:id="@+id/imageView11"
+               android:layout_width="200dp"
+            android:layout_height="wrap_content"
+                android:src="@drawable/susan" />
+
+            <Button
+                        android:id="@+id/Buttonf11"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:textSize="35sp"
+                        android:background="@drawable/highlight_wild"
+                        android:text="Black-Eyed Susan" />
+        
+    </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

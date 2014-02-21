@@ -43,7 +43,7 @@ public class campingtips extends Activity implements OnItemSelectedListener {
 					break;
 				case 1:
 					tv1.setText("How to Make a Fire:\n\n\t 1. Come to the front office and buy wood! (kindling and larger wood)\n\n\t 2."
-							+" Locate your firepit (if you do not have a pit find a worker and ask them to dig you one).+" +
+							+" Locate your firepit (if you do not have a pit find a worker and ask them to dig you one)." +
 							"\n\n\t 3. Crumple up sheets of newspaper into tightly packed balls and then pile the balls together ontop of the pit."+
 							"\n\n\t 4. Put pieces of kindling (with one end touching the ground and the other over the centre of the pile) around the whole paper pile. Try to make sure there are a few air holes but still a significant amount of kindling."+
 							"\n\n\t 5. Light the newspaper on fire close to the ground on all sides."+

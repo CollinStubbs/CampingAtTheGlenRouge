@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/wildcolour"
+    android:gravity="center_horizontal">
+    
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="40dip"
+        android:text="@string/wildtext"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+<View
+	            android:layout_width="fill_parent"
+				android:layout_height="70dip"
+				android:background="@null" />
+    <Button
+        android:id="@+id/faunaButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/highlight_wild"
+        android:drawableLeft="@drawable/faunaic"
+        android:drawablePadding="40dip"
+        android:text="@string/Fauna"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+<View
+	            android:layout_width="fill_parent"
+				android:layout_height="70dip"
+				android:background="@null" />
+    <Button
+        android:id="@+id/floraButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/highlight_wild"
+        android:drawableLeft="@drawable/floraic"
+        android:drawablePadding="60dip"
+        android:text="@string/Flora"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        
+        />
+
+</LinearLayout>
+</ScrollView>

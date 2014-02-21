@@ -5,7 +5,7 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
 	<dimen name="font_size">80sp</dimen>
 	<dimen name="title_top">45sp</dimen>
-	<dimen name="font_size2">90sp</dimen>
+	<dimen name="font_size2">70sp</dimen>
 	<dimen name="title_top2">65sp</dimen>
 	<dimen name="font_size3">130sp</dimen>
 	<dimen name="title_top3">95sp</dimen>

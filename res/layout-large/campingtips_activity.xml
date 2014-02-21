@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/campcolor"
+	>
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:orientation="vertical"
+	    android:paddingTop="20dp"
+	    >
+	    
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textStyle="bold"
+	        android:textSize="42sp"
+	        android:textColor="@color/black"
+	        android:text="@string/qct" 
+	     />
+	    
+		<LinearLayout
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textSize="30sp"
+		    android:orientation="vertical"
+		    android:paddingTop="25dp"
+		    android:paddingLeft="20dp"
+		    android:paddingRight="20dp"
+		    >
+
+			<Spinner
+			    android:paddingLeft="20dp"
+			    android:id="@+id/ctspin1"
+			    android:layout_width="match_parent"
+			    android:layout_height="55dp" 
+			    android:background="@drawable/spinner_drawable"/>
+
+			<ImageView
+			    android:id="@+id/line"
+			    android:layout_width="fill_parent"
+			    android:layout_height="22dp"
+			    android:paddingTop="20dp"
+			    android:src="@drawable/line" />
+		    
+	    </LinearLayout>
+		    <LinearLayout 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:paddingLeft="20dp"
+		        android:paddingRight="20dp"
+		        >
+		    <TextView
+		        android:id="@+id/tvCamp"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textSize="28sp"
+		        android:textColor="@color/black"
+				android:paddingTop="20dp"
+		     />
+		    </LinearLayout>
+	</LinearLayout>
+</ScrollView>

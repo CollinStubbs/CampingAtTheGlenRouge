@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tourcolor"
+    android:gravity="center">
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/flag"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:src="@drawable/flags" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        
+         >
+
+        
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="15dp"
+            android:text="@string/tourtitle"
+            android:textColor="@color/black"
+            android:textSize="48sp" />
+	<LinearLayout
+	    android:paddingTop="0dp"
+	    android:paddingLeft="30dp"
+	    android:gravity="left"
+	    android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/wonderland"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tourbuttonhigh"
+            android:paddingBottom="17dp"
+            android:paddingTop="6dp"
+            android:text=" 1. Canada&apos;s Wonderland"
+            android:textSize="22sp" />
+        
+        <LinearLayout
+           android:layout_width="fill_parent"
+           		android:orientation="vertical"
+				android:layout_height="2dip"
+				android:paddingLeft="20dp"
+				android:paddingRight="50dp">
+<View
+    			
+	            android:layout_width="fill_parent"
+				android:layout_height="2dip"
+				android:background="@color/white" />
+</LinearLayout>
+        <Button
+            android:id="@+id/rom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tourbuttonhigh"
+            android:paddingBottom="17dp"
+            android:paddingTop="6dp"
+            android:text=" 2. Royal Ontario Museum"
+            android:textSize="22sp" />
+<LinearLayout
+           android:layout_width="fill_parent"
+				android:layout_height="2dip"
+				android:paddingLeft="20dp"
+				android:paddingRight="50dp">
+<View
+    			           		android:orientation="vertical"
+    			
+	            android:layout_width="fill_parent"
+				android:layout_height="2dip"
+				android:background="@color/white" />
+</LinearLayout>
+        <Button
+            android:id="@+id/tower"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tourbuttonhigh"
+            android:paddingBottom="17dp"
+            android:paddingTop="6dp"
+            android:text=" 3. CN Tower"
+            android:textSize="22sp" />
+<LinearLayout
+               		android:orientation="vertical"
+    
+           android:layout_width="fill_parent"
+				android:layout_height="2dip"
+				android:paddingLeft="20dp"
+				android:paddingRight="50dp">
+<View
+    			
+	            android:layout_width="fill_parent"
+				android:layout_height="2dip"
+				android:background="@color/white" />
+</LinearLayout>
+        <Button
+            android:id="@+id/science"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tourbuttonhigh"
+            android:paddingBottom="7dp"
+            android:paddingTop="6dp"
+            android:text=" 4. Ontario Science Centre"
+            android:textSize="22sp" />
+<LinearLayout
+               		android:orientation="vertical"
+    
+           android:layout_width="fill_parent"
+				android:layout_height="2dip"
+				android:paddingLeft="20dp"
+				android:paddingRight="50dp">
+<View
+    			
+	            android:layout_width="fill_parent"
+				android:layout_height="2dip"
+				android:background="@color/white" />
+</LinearLayout>
+        <Button
+            android:id="@+id/aquarium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tourbuttonhigh"
+            android:paddingBottom="17dp"
+            android:paddingTop="6dp"
+            android:text=" 5. Ripleys Aquarium"
+            android:textSize="22sp" />
+<LinearLayout
+               		android:orientation="vertical"
+    
+           android:layout_width="fill_parent"
+				android:layout_height="2dip"
+				android:paddingLeft="20dp"
+				android:paddingRight="50dp">
+<View
+    			
+	            android:layout_width="fill_parent"
+				android:layout_height="2dip"
+				android:background="@color/white" />
+</LinearLayout>
+        <Button
+            android:id="@+id/rogers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tourbuttonhigh"
+            android:paddingBottom="17dp"
+            android:paddingTop="6dp"
+            android:text=" 6. Rogers Centre"
+            android:textSize="22sp" />
+<LinearLayout
+               		android:orientation="vertical"
+    
+           android:layout_width="fill_parent"
+				android:layout_height="2dip"
+				android:paddingLeft="20dp"
+				android:paddingRight="50dp">
+<View
+    			
+	            android:layout_width="fill_parent"
+				android:layout_height="2dip"
+				android:background="@color/white" />
+</LinearLayout>
+        <Button
+            android:id="@+id/zoo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tourbuttonhigh"
+            android:paddingBottom="17dp"
+            android:paddingTop="6dp"
+            android:text=" 7. Toronto Zoo"
+            android:textSize="22sp" />
+<LinearLayout
+               		android:orientation="vertical"
+    
+           android:layout_width="fill_parent"
+				android:layout_height="2dip"
+				android:paddingLeft="20dp"
+				android:paddingRight="50dp">
+<View
+    			
+	            android:layout_width="fill_parent"
+				android:layout_height="2dip"
+				android:background="@color/white" />
+</LinearLayout>
+</LinearLayout>
+        <ImageButton
+            android:id="@+id/pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="25dp"
+            android:background="@null"
+            android:src="@drawable/citypass" />
+
+        <ImageButton
+            android:id="@+id/tour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="14dp"
+            android:background="@null"
+            android:src="@drawable/sights" />
+        <View
+	            android:layout_width="fill_parent"
+				android:layout_height="4dp"
+				android:background="@null" />
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:paddingTop="15dp"
+    android:orientation="horizontal"
+    >
+    <View
+	            android:layout_width="20dp"
+				android:layout_height="fill_parent"
+				android:background="@null" />
+        <ImageButton
+            android:id="@+id/go"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/go" />
+        <View
+	            android:layout_width="20dp"
+				android:layout_height="fill_parent"
+				android:background="@null" />
+        <ImageButton
+            android:id="@+id/ttc"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/ttc" />
+        <View
+	            android:layout_width="20dp"
+				android:layout_height="fill_parent"
+				android:background="@null" />
+</LinearLayout>
+
+    </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

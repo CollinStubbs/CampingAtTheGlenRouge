@@ -102,22 +102,30 @@ public class activities extends Activity implements OnClickListener{
                 touch.setImageResource(R.drawable.cedar1);
             break;
         case R.id.eaglepop:
-                touch.setImageResource(R.drawable.eaglesvista);
+        	title.setText("Glen Eagles Vista Trail");
+        	abs.setText("Outstanding scenery all year, but especially pretty in autumn."
+        			+" From this viewpoint you can see the Rouge River and Little Rouge Creek"
+        			+" valleys and a provincially-significant geologic feature. This easy trail"
+        			+" is flat and accessible for wheelchairs and other mobility devices.");
+        	bullets.setText("•  An outdoor interpretive exhibit provides visitors with information on the scenery and some background on the history of the site.\n"+
+        				"•  Outstanding views of river valleys and natural erosion.\n"+
+        				"•  Short trail with interpretive signs and native vegetation.");
+                touch.setImageResource(R.drawable.eagle1);
             break;
         case R.id.mastpop:
-                touch.setImageResource(R.drawable.mast);
+                touch.setImageResource(R.drawable.mast1);
             break;
         case R.id.meanderpop:
-                touch.setImageResource(R.drawable.meander);
+                touch.setImageResource(R.drawable.meander1);
             break;
         case R.id.orchardpop:
-                touch.setImageResource(R.drawable.orchard);
+                touch.setImageResource(R.drawable.orchard1);
             break;
         case R.id.vistapop:
-                touch.setImageResource(R.drawable.vista);
+                touch.setImageResource(R.drawable.vista1);
             break;
         case R.id.woodlandpop:
-                touch.setImageResource(R.drawable.woodland);
+                touch.setImageResource(R.drawable.woodland1);
             break;
         case R.id.guidepop:
         		touch.setImageResource(R.drawable.parkguide);

@@ -65,16 +65,41 @@ public class activities extends Activity implements OnClickListener{
         pw.showAtLocation(layout, Gravity.TOP, 0, 0);
       
         TouchImageView touch = (TouchImageView)layout.findViewById(R.id.imageView1);
-        
+        TextView title = (TextView)layout.findViewById(R.id.textTitle);
+        TextView abs = (TextView)layout.findViewById(R.id.abst);
+        TextView bullets = (TextView)layout.findViewById(R.id.bullets);
         switch(v.getId()){
         case R.id.mappop:
                 touch.setImageResource(R.drawable.map);
             break;
         case R.id.beachpop:
-                touch.setImageResource(R.drawable.beach);
+        		title.setText("Rouge Beach Trail");
+        		abs.setText("Make a splash in Lake Ontario! Where the Rouge River meets Lake "+ 
+				"Ontario, there’s a sandy beach and a wetland full of wildlife waiting for "+
+				"you. The marshes at Rouge Beach are the best and biggest in Toronto and "+
+				"the sandy beach is a popular summer spot for neighbours and visitors "+
+				"alike. Enjoy the 1km Rouge Beach trail.");
+        		bullets.setText("•  A view of Lake Ontario, shoreline to the east, and the mouth of the "+
+				"Rouge River.\n"+
+				"•  A variety of wetland and shoreline plants and animals.\n"+ 
+				"•  Tranquil canoeing on river. No motorized boating permitted.\n"+
+				"•  Fishing access. Seasonal provincial licence required.\n"+
+				"•  Easily accessible boardwalk and pathway near marshes.\n"+
+				"•  Access to Lake Ontario Waterfront Trail.\n"+
+				"•  Washrooms, drinking water .\n"+
+				"•  Swimming - the beach is open in accordance with Toronto Public "+
+				"Health approval, lifeguard on duty when officially open.");
+                touch.setImageResource(R.drawable.beach1);
             break;
         case R.id.cedarpop:
-                touch.setImageResource(R.drawable.cedartrail);
+        		title.setText("Cedar Trail");
+        		abs.setText("Experience the cool green of mature forest as it shelters the "+ 
+        		"lush valley lands, see butterflies fluttering through a meadow, and "+
+        		"listen for frogs at the wetlands");
+        		bullets.setText("•  Small streams that flow into Little Rouge Creek, and Little Rouge Creek itself.\n"+
+        						"•  Wetland and meadow species near southern sections of the trail, forest species in northern sections.\n"+
+        						"•  From the south trailhead, you can see the hill from an old landfill site that is being renaturalized, and wetlands created in the excavated areas where soil was removed to cover the site.");
+                touch.setImageResource(R.drawable.cedar1);
             break;
         case R.id.eaglepop:
                 touch.setImageResource(R.drawable.eaglesvista);

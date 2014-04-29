@@ -13,6 +13,31 @@
 	    android:orientation="vertical" 
 	    android:gravity="top"
 	    android:background="@color/actcolor">
+	    
+        <TextView
+            android:id="@+id/textTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="@color/black"
+            android:paddingBottom="15dp"/>
+        <TextView
+            android:id="@+id/abst"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="left|center"
+            android:textSize="17sp"
+            android:textColor="@color/black"
+            android:paddingBottom="20dp"/>
+        <TextView
+            android:id="@+id/bullets"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="left|center"
+            android:textSize="17sp"
+            android:textColor="@color/black"/>
 		
 	    <collin.app1.campingattheglenrouge.TouchImageView
 	        android:id="@+id/imageView1"

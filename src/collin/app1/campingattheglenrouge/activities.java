@@ -113,18 +113,46 @@ public class activities extends Activity implements OnClickListener{
                 touch.setImageResource(R.drawable.eagle1);
             break;
         case R.id.mastpop:
+        	title.setText("Mast Trail");
+        	abs.setText("Walk a 200 year old logging route. Over a century ago large trees were cut and floated down the river to the lake, bound for ship building yards in Europe. The trail leads over the “hog’s back”, or ridge, to Twyn Rivers Drive");
+        	bullets.setText("•  A variety of forest plants and animals."+
+"•  Mature forests with lush understorey of ferns and other plants."+
+"•  Steep grades and stairs, but worth the climb!"+
+"•  If you’re lucky, you can spot interior forest birds like the ovenbird.");
+        	
                 touch.setImageResource(R.drawable.mast1);
             break;
         case R.id.meanderpop:
+        	title.setText("Finch Meander Trail");
+        	abs.setText("This short trail immediately immerses you into the wilderness. Nestled in along a curve in the Rouge River, enjoy the sights and sounds of nature.");
+        	bullets.setText("•  A colourful selection of wildflowers and ancient maple trees along the trail"+
+"•  Ancient maple trees offering shade"+
+"•  Look carefully and you may spot the serenading songbirds"+
+"•  Listen to the Rouge River as it flows over a rocky riverbed");
                 touch.setImageResource(R.drawable.meander1);
             break;
         case R.id.orchardpop:
+        	title.setText("Orchard Trail");
+        	abs.setText("Witness nature reclaiming the land as regenerating forests merge with remnants of an agricultural past.");
+        	bullets.setText("•  From the north trailhead, you can see the hill from an old landfill site that is being revegetated, and wetlands created in the excavated areas where soil was removed to cover the garbage."+
+"•  From the south trailhead at Twyn Rivers Drive, you can see an old ski hill and the pieces of an old concrete dam that was once used to back up the river for swimming when a hotel stood on the site.");
                 touch.setImageResource(R.drawable.orchard1);
             break;
         case R.id.vistapop:
+        	title.setText("Vista trail");
+        	abs.setText("Panoramic bluffs, view of the Little Rouge Creek and Rouge River valleys. From the north trailhead you’ll find an easily accessible 1.5 km loop route, offering panoramic view of the Little Rouge Creek valley");
+        	bullets.setText("•  A mix of forest and meadow offers a variety of plant and animal life."+
+"•  Steep bluffs provide breathtaking views of the river valleys. "+
+"•  Be sure to check out the Ontario Power Generation viewing deck!");
                 touch.setImageResource(R.drawable.vista1);
             break;
         case R.id.woodlandpop:
+        	title.setText("Woodland Trail");
+        	abs.setText("Easy trail, flat and relatively accessible for mobility devices for 1.5 km. Follow the entire 2.5 km trail for a moderately challenging hike. The mix of forest and meadow views offers opportunities for a variety of plant and animal spotting");
+        	bullets.setText("•  Little Rouge Creek and the valley."+
+"•  Young trees planted to build new forests."+
+"•  Remnants of a cottage area flooded by Hurricane Hazel in 1954. "+
+"•  Wildlife viewing opportunities");
                 touch.setImageResource(R.drawable.woodland1);
             break;
         case R.id.guidepop:

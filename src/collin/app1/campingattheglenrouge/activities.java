@@ -115,20 +115,20 @@ public class activities extends Activity implements OnClickListener{
         case R.id.mastpop:
         	title.setText("Mast Trail");
         	abs.setText("Walk a 200 year old logging route. Over a century ago large trees were cut and floated down the river to the lake, bound for ship building yards in Europe. The trail leads over the “hog’s back”, or ridge, to Twyn Rivers Drive");
-        	bullets.setText("•  A variety of forest plants and animals."+
-"•  Mature forests with lush understorey of ferns and other plants."+
-"•  Steep grades and stairs, but worth the climb!"+
-"•  If you’re lucky, you can spot interior forest birds like the ovenbird.");
+        	bullets.setText("•  A variety of forest plants and animals.\n"+
+"•  Mature forests with lush understorey of ferns and other plants.\n"+
+"•  Steep grades and stairs, but worth the climb!\n"+
+"•  If you’re lucky, you can spot interior forest birds like the ovenbird.\n");
         	
                 touch.setImageResource(R.drawable.mast1);
             break;
         case R.id.meanderpop:
         	title.setText("Finch Meander Trail");
         	abs.setText("This short trail immediately immerses you into the wilderness. Nestled in along a curve in the Rouge River, enjoy the sights and sounds of nature.");
-        	bullets.setText("•  A colourful selection of wildflowers and ancient maple trees along the trail"+
-"•  Ancient maple trees offering shade"+
-"•  Look carefully and you may spot the serenading songbirds"+
-"•  Listen to the Rouge River as it flows over a rocky riverbed");
+        	bullets.setText("•  A colourful selection of wildflowers and ancient maple trees along the trail.\n"+
+"•  Ancient maple trees offering shade.\n"+
+"•  Look carefully and you may spot the serenading songbirds.\n"+
+"•  Listen to the Rouge River as it flows over a rocky riverbed.");
                 touch.setImageResource(R.drawable.meander1);
             break;
         case R.id.orchardpop:

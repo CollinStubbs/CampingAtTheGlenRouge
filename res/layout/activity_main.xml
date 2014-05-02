@@ -147,7 +147,7 @@
 	        android:textSize="@dimen/bts" />
 	</LinearLayout>
 		<LinearLayout
-		    android:paddingTop="20dp"
+		    android:paddingTop="50dp"
 		    android:orientation="horizontal"
 		    android:layout_width="fill_parent"
 		    android:gravity="center_horizontal"
@@ -157,7 +157,7 @@
 			        android:layout_width="50dp"
 			        android:layout_height="wrap_content"
 			        android:background="@drawable/mainbuttonhigh"
-			        android:src="@drawable/phone_icon" />
+			        android:src="@drawable/phone1" />
                 <View
 		            android:layout_width="30dp"
 					android:layout_height="fill_parent"
@@ -169,7 +169,7 @@
 			        android:layout_height="wrap_content"
 			        android:text="Credits and Contributions"
 			        android:background="@drawable/mainbuttonhigh"
-			        android:paddingTop="30sp"
+			        
 			        />
 	            <View
 		            android:layout_width="30dp"
@@ -180,7 +180,7 @@
 			        android:layout_width="wrap_content"
 			        android:layout_height="wrap_content"
 			        android:background="@drawable/mainbuttonhigh"
-			        android:src="@drawable/aud" />
+			        android:src="@drawable/aud1" />
 		    
 		    </LinearLayout>
 		    

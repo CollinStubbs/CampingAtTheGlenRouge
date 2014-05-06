@@ -32,6 +32,7 @@
         android:background="@drawable/highlight_wild"
         android:drawableLeft="@drawable/faunaic"
         android:drawablePadding="40dip"
+        android:paddingRight="60dp"
         android:text="@string/Fauna"
         android:textColor="@color/black"
         android:textSize="@dimen/bts" />
@@ -46,6 +47,7 @@
         android:background="@drawable/highlight_wild"
         android:drawableLeft="@drawable/floraic"
         android:drawablePadding="60dip"
+        android:paddingRight="60dp"
         android:text="@string/Flora"
         android:textColor="@color/black"
         android:textSize="@dimen/bts"

@@ -30,7 +30,7 @@ import collin.app1.campingattheglenrouge.R;
 
 public class MainActivity extends Activity implements OnClickListener {
 	PopupWindow pw;
-	MediaPlayer mMediaPlayer;
+	//MediaPlayer mMediaPlayer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,16 +43,16 @@ public class MainActivity extends Activity implements OnClickListener {
         title.setTypeface(t);
         title2.setTypeface(t);
         setupButtonClickListener();
-        mMediaPlayer = new MediaPlayer();
+      /*  mMediaPlayer = new MediaPlayer();
         mMediaPlayer = MediaPlayer.create(this, R.raw.sound);
         mMediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
         mMediaPlayer.setLooping(true);
-        mMediaPlayer.start();
+        mMediaPlayer.start();*/
     }
   
     protected void onDestroy(){
     	super.onDestroy();
-    	mMediaPlayer.stop();
+    	//mMediaPlayer.stop();
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -88,8 +88,8 @@ public class MainActivity extends Activity implements OnClickListener {
     	Button credit = (Button)findViewById(R.id.credit);
     	credit.setOnClickListener(this);
     	
-    	ImageButton audio = (ImageButton) findViewById(R.id.audio);
-    	audio.setOnClickListener(this);
+    	/*ImageButton audio = (ImageButton) findViewById(R.id.audio);
+    	audio.setOnClickListener(this);*/
     	
     	ImageButton call = (ImageButton) findViewById(R.id.phone);
     	call.setOnClickListener(this);
@@ -101,8 +101,8 @@ public class MainActivity extends Activity implements OnClickListener {
 		// TODO Auto-generated method stub
 		
 		switch(v.getId()){
-		case R.id.audio:
-			if(mMediaPlayer.isPlaying()){
+		//case R.id.audio:
+			/*if(mMediaPlayer.isPlaying()){
 				mMediaPlayer.stop();
 			}else{
 		        mMediaPlayer = new MediaPlayer();
@@ -111,8 +111,8 @@ public class MainActivity extends Activity implements OnClickListener {
 		        mMediaPlayer.setLooping(true);
 		        mMediaPlayer.start();
 		    
-			}
-			break;
+			}*/
+			//break;
 		case R.id.phone:
 			Intent callIntent = new Intent(Intent.ACTION_DIAL);
 		    callIntent.setData(Uri.parse("tel:4162872267"));

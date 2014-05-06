@@ -175,12 +175,12 @@
 		            android:layout_width="30dp"
 					android:layout_height="fill_parent"
 					android:background="@null" />
-		        <ImageButton
+		     <!--   <ImageButton 
 			        android:id="@+id/audio"
 			        android:layout_width="wrap_content"
 			        android:layout_height="wrap_content"
 			        android:background="@drawable/mainbuttonhigh"
-			        android:src="@drawable/aud1" />
+			        android:src="@drawable/aud1" /> -->
 		    
 		    </LinearLayout>
 		    

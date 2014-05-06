@@ -71,6 +71,7 @@ TextView tv1;
     			String group = "To inquire about Group Camp rentals please call: \n\n<a href='tel:4162872267'>(416) 287-2267</a>";
     			tv1.setText(Html.fromHtml(group));
     			tv1.setMovementMethod(LinkMovementMethod.getInstance());
+    			tv1.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 25);
     			break;
     		}
     	}

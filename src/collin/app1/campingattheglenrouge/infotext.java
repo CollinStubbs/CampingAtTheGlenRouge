@@ -23,6 +23,7 @@ import collin.app1.campingattheglenrouge.R;
  
 public class infotext extends Activity implements OnItemSelectedListener{
 TextView tv1;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

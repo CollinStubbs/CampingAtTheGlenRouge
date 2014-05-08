@@ -1,5 +1,8 @@
 package collin.app1.campingattheglenrouge;
 
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+
 import collin.app1.campingattheglenrouge.R;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.MapFragment;
@@ -11,6 +14,12 @@ import com.google.android.gms.maps.model.MarkerOptions;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
+import android.content.pm.PackageManager.NameNotFoundException;
+import android.content.pm.Signature;
+import android.util.Base64;
+import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -22,6 +31,7 @@ import android.widget.Spinner;
  
 public class maps extends Activity implements OnItemSelectedListener{
     static final LatLng base = new LatLng(43.804871, -79.137248);
+    private static final String TAG = "MyActivity";
     GoogleMap googleMap;
     Marker BD;
     Marker WD;
@@ -41,7 +51,7 @@ public class maps extends Activity implements OnItemSelectedListener{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.maps_activity);
         
-        
+        getShaKey();
         googleMap = ((MapFragment) getFragmentManager().findFragmentById(R.id.the_map)).getMap();
         
         Spinner spinner = (Spinner) findViewById(R.id.mapList);
@@ -108,6 +118,27 @@ public class maps extends Activity implements OnItemSelectedListener{
         }
     }
 
+    private void getShaKey() {
+
+    	 try {
+    	 PackageInfo info = getPackageManager().getPackageInfo("your.package.name",
+    	 PackageManager.GET_SIGNATURES);
+    	 for (Signature signature : info.signatures) {
+    	 MessageDigest md = MessageDigest.getInstance("SHA");
+    	 md.update(signature.toByteArray());
+    	 Log.v(TAG, "KeyHash:" + Base64.encodeToString(md.digest(),
+    	 Base64.DEFAULT));
+    	 }
+    	 } catch (NameNotFoundException e) {
+    	 e.printStackTrace();
+
+    	 } catch (NoSuchAlgorithmException e) {
+    	 e.printStackTrace();
+
+    	 }
+
+    	 }
+    
 	@Override
 	public void onItemSelected(AdapterView<?> arg0, View arg1, int arg2,
 			long arg3) {

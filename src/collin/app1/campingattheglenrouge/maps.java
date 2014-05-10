@@ -45,7 +45,19 @@ public class maps extends Activity implements OnItemSelectedListener{
     Marker BP;
     Marker CTS;
     Marker HD;
-    
+    //trca
+    Marker petti;
+    Marker alb;
+    Marker boyd;
+    Marker bruce;
+    Marker glen;
+    Marker heart;
+    Marker blackcreek;
+    Marker kourtright;
+    Marker bathurst;
+    Marker indianline;
+    Marker claire;
+    Marker tommy;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -62,7 +74,7 @@ public class maps extends Activity implements OnItemSelectedListener{
         
         googleMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
         Marker TP = googleMap.addMarker(new MarkerOptions().
-        position(base).title("Glenrouge Campground"));
+        position(base).title("Glenrouge Campground").icon(BitmapDescriptorFactory.fromResource(R.drawable.trcamark)));
         try{
         MapsInitializer.initialize(this);
         LatLng blackDog = new LatLng(43.797896, -79.139111);
@@ -113,6 +125,92 @@ public class maps extends Activity implements OnItemSelectedListener{
 	    LatLng homeD = new LatLng(43.828652, -79.095277);
 	    HD = googleMap.addMarker(new MarkerOptions().
 	            position(homeD).title("Home Depot").snippet("http://www.homedepot.ca"));
+	    
+	    //TRCA PARKS
+	    
+	    LatLng pettiCoat = new LatLng(43.800112, -79.111113);
+	    petti = googleMap.addMarker(new MarkerOptions().
+	            position(pettiCoat)
+	            .title("Petticoat Creek")
+	            .snippet("http://www.trca.on.ca/enjoy/locations/petticoat-creek-conservation-area.dot#sthash.oe0iqEiO.dpbs")
+	            .icon(BitmapDescriptorFactory.fromResource(R.drawable.trcamark)));
+	    
+	    LatLng albionHills = new LatLng(43.930595, -79.827057);
+	    alb = googleMap.addMarker(new MarkerOptions().
+	            position(albionHills)
+	            .title("Albion Hills Conservation Area")
+	            .snippet("http://www.trca.on.ca/enjoy/locations/albion-hills.dot#sthash.k6WWb4a6.dpbs")
+	            .icon(BitmapDescriptorFactory.fromResource(R.drawable.trcamark)));
+	    
+	    LatLng boydConservation = new LatLng(43.809569, -79.588049);
+	    boyd = googleMap.addMarker(new MarkerOptions().
+	            position(boydConservation)
+	            .title("Boyd Conservation Area")
+	            .snippet("http://www.trca.on.ca/enjoy/locations/boyd-conservation-area.dot#sthash.bCcnRX4B.dpbs")
+	            .icon(BitmapDescriptorFactory.fromResource(R.drawable.trcamark)));
+	    
+	    LatLng bruces = new LatLng(43.948289, -79.350158);
+	    bruce = googleMap.addMarker(new MarkerOptions().
+	            position(bruces)
+	            .title("Bruce's Mill Conservation Area")
+	            .snippet("http://www.trca.on.ca/enjoy/locations/bruces-mill-conservation-area.dot#sthash.WksUJ2dh.dpbs")
+	            .icon(BitmapDescriptorFactory.fromResource(R.drawable.trcamark)));
+	    
+	    LatLng haffy = new LatLng(43.935717, -79.954514);
+	    glen = googleMap.addMarker(new MarkerOptions().
+	            position(haffy)
+	            .title("Glen Haffy Conservation Area")
+	            .snippet("http://www.trca.on.ca/enjoy/locations/glen-haffy-conservation-area.dot#sthash.I1io9pDj.zokMG3s2.dpbs")
+	            .icon(BitmapDescriptorFactory.fromResource(R.drawable.trcamark)));
+	    
+	    LatLng heartlake = new LatLng(43.741208, -79.787867);
+	    glen = googleMap.addMarker(new MarkerOptions().
+	            position(heartlake)
+	            .title("Heart Lake Conservation Area")
+	            .snippet("http://www.trca.on.ca/enjoy/locations/heart-lake-conservation-area.dot#sthash.4sIzRbfs.dpbs")
+	            .icon(BitmapDescriptorFactory.fromResource(R.drawable.trcamark)));
+	    
+	    LatLng bcpv = new LatLng(43.774259, -79.515567);
+	    blackcreek = googleMap.addMarker(new MarkerOptions().
+	            position(bcpv)
+	            .title("Black Creek Pioneer Village")
+	            .snippet("http://www.blackcreek.ca/")
+	            .icon(BitmapDescriptorFactory.fromResource(R.drawable.trcamark)));
+	    
+	    LatLng kcfc = new LatLng(43.832700, -79.592926);
+	    kourtright = googleMap.addMarker(new MarkerOptions().
+	            position(kcfc)
+	            .title("Kourtright Centre for Conservation")
+	            .snippet("http://www.kourtright.org/")
+	            .icon(BitmapDescriptorFactory.fromResource(R.drawable.trcamark)));
+	    
+	    LatLng bggc = new LatLng(43.927748, -79.470202);
+	    bathurst = googleMap.addMarker(new MarkerOptions().
+	            position(bggc)
+	            .title("Bathurst Glen Golf Course")
+	            .snippet("http://www.bathurstglengolf.ca/")
+	            .icon(BitmapDescriptorFactory.fromResource(R.drawable.trcamark)));
+	    
+	    LatLng ilcg = new LatLng(43.832700, -79.592926);
+	    indianline = googleMap.addMarker(new MarkerOptions().
+	            position(ilcg)
+	            .title("Indian Line Campground")
+	            .snippet("http://www.trca.on.ca/enjoy/locations/indian-line-campground.dot")
+	            .icon(BitmapDescriptorFactory.fromResource(R.drawable.trcamark)));
+	    
+	    LatLng cca = new LatLng(43.756721, -79.665482);
+	    claire = googleMap.addMarker(new MarkerOptions().
+	            position(cca)
+	            .title("ClaireVille Conservation Area")
+	            .snippet("http://www.trca.on.ca/enjoy/locations/claireville-conservation-area.dot")
+	            .icon(BitmapDescriptorFactory.fromResource(R.drawable.trcamark)));
+	    
+	    LatLng ttp = new LatLng(43.620602, -79.337887);
+	    tommy = googleMap.addMarker(new MarkerOptions().
+	            position(ttp)
+	            .title("Tommy Thompson Park")
+	            .snippet("http://www.tommythompsonpark.ca/")
+	            .icon(BitmapDescriptorFactory.fromResource(R.drawable.trcamark)));
         }catch(Exception e){
         	
         }
@@ -147,6 +245,17 @@ public class maps extends Activity implements OnItemSelectedListener{
 		// TODO Auto-generated method stub
 		switch((int) arg2){
 		case 0:
+			petti.setVisible(false);
+			boyd.setVisible(false);
+			alb.setVisible(false);
+			bruce.setVisible(false);
+			glen.setVisible(false);
+			blackcreek.setVisible(false);
+			kourtright.setVisible(false);
+			bathurst.setVisible(false);
+			indianline.setVisible(false);
+			claire.setVisible(false);
+			tommy.setVisible(false);
 			RB.setVisible(false);
 			LP.setVisible(false);
 			BP.setVisible(false);
@@ -164,6 +273,17 @@ public class maps extends Activity implements OnItemSelectedListener{
 			HD.setVisible(false);
 			break;
 		case 1:
+			petti.setVisible(false);
+			boyd.setVisible(false);
+			alb.setVisible(false);
+			bruce.setVisible(false);
+			glen.setVisible(false);
+			blackcreek.setVisible(false);
+			kourtright.setVisible(false);
+			bathurst.setVisible(false);
+			indianline.setVisible(false);
+			claire.setVisible(false);
+			tommy.setVisible(false);
 			RB.setVisible(false);
 			LP.setVisible(false);
 			BP.setVisible(false);
@@ -178,6 +298,17 @@ public class maps extends Activity implements OnItemSelectedListener{
 			HD.setVisible(false);
 			break;
 		case 2:
+			petti.setVisible(false);
+			boyd.setVisible(false);
+			alb.setVisible(false);
+			bruce.setVisible(false);
+			glen.setVisible(false);
+			blackcreek.setVisible(false);
+			kourtright.setVisible(false);
+			bathurst.setVisible(false);
+			indianline.setVisible(false);
+			claire.setVisible(false);
+			tommy.setVisible(false);
 			RB.setVisible(true);
 			LP.setVisible(true);
 			BP.setVisible(true);
@@ -192,8 +323,45 @@ public class maps extends Activity implements OnItemSelectedListener{
 			HD.setVisible(false);
 			break;
 		case 3:
+			petti.setVisible(false);
+			boyd.setVisible(false);
+			alb.setVisible(false);
+			bruce.setVisible(false);
+			glen.setVisible(false);
+			blackcreek.setVisible(false);
+			kourtright.setVisible(false);
+			bathurst.setVisible(false);
+			indianline.setVisible(false);
+			claire.setVisible(false);
+			tommy.setVisible(false);
 			CTS.setVisible(true);
 			HD.setVisible(true);
+			RB.setVisible(false);
+			LP.setVisible(false);
+			BP.setVisible(false);
+			NF.setVisible(false);
+			NF.setVisible(false);
+			M.setVisible(false);
+			FC.setVisible(false);
+			BD.setVisible(false);
+			WD.setVisible(false);
+			MB.setVisible(false);
+			MC.setVisible(false);
+			break;
+		case 4:
+			petti.setVisible(true);
+			boyd.setVisible(true);
+			alb.setVisible(true);
+			bruce.setVisible(true);
+			glen.setVisible(true);
+			blackcreek.setVisible(true);
+			kourtright.setVisible(true);
+			bathurst.setVisible(true);
+			indianline.setVisible(true);
+			claire.setVisible(true);
+			tommy.setVisible(true);
+			CTS.setVisible(false);
+			HD.setVisible(false);
 			RB.setVisible(false);
 			LP.setVisible(false);
 			BP.setVisible(false);

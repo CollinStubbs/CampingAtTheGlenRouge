@@ -39,6 +39,7 @@
         <item>Restaurants</item>
         <item>Beaches</item>
         <item>Hardware/Camp Supplies</item>
+        <item>TRCA Parks</item>
     </string-array>
     	 <string-array name="campOptions">
     	<item>What should I bring?</item>

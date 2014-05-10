@@ -74,6 +74,12 @@ TextView tv1;
     			tv1.setMovementMethod(LinkMovementMethod.getInstance());
     			tv1.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 25);
     			break;
+    		case 4:
+    			String trca = "Toronto and Region Conservation (TRCA) works with its partners to ensure The Living City is built on a natural foundation of healthy rivers and shorelines, greenspace and biodiversity, and sustainable communities.";
+    			tv1.setText(Html.fromHtml(trca));
+    			tv1.setMovementMethod(LinkMovementMethod.getInstance());
+    			tv1.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 25);
+    			break;
     		}
     	}
     

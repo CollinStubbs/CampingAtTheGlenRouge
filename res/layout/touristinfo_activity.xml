@@ -41,7 +41,8 @@
         android:layout_height="wrap_content">
         <Button
             android:id="@+id/wonderland"
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="left"
             android:layout_height="wrap_content"
             android:background="@drawable/tourbuttonhigh"
             android:paddingBottom="7dp"
@@ -63,7 +64,8 @@
 </LinearLayout>
         <Button
             android:id="@+id/rom"
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="left"
             android:layout_height="wrap_content"
             android:background="@drawable/tourbuttonhigh"
             android:paddingBottom="7dp"
@@ -84,7 +86,8 @@
 </LinearLayout>
         <Button
             android:id="@+id/tower"
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="left"
             android:layout_height="wrap_content"
             android:background="@drawable/tourbuttonhigh"
             android:paddingBottom="7dp"
@@ -106,7 +109,8 @@
 </LinearLayout>
         <Button
             android:id="@+id/science"
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="left"
             android:layout_height="wrap_content"
             android:background="@drawable/tourbuttonhigh"
             android:paddingBottom="7dp"
@@ -128,7 +132,8 @@
 </LinearLayout>
         <Button
             android:id="@+id/aquarium"
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="left"
             android:layout_height="wrap_content"
             android:background="@drawable/tourbuttonhigh"
             android:paddingBottom="7dp"
@@ -150,7 +155,8 @@
 </LinearLayout>
         <Button
             android:id="@+id/rogers"
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="left"
             android:layout_height="wrap_content"
             android:background="@drawable/tourbuttonhigh"
             android:paddingBottom="7dp"
@@ -172,7 +178,8 @@
 </LinearLayout>
         <Button
             android:id="@+id/zoo"
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="left"
             android:layout_height="wrap_content"
             android:background="@drawable/tourbuttonhigh"
             android:paddingBottom="7dp"

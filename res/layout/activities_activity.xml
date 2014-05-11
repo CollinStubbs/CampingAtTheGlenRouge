@@ -53,7 +53,13 @@
 		        android:background="@drawable/activitybuttonhigh"
 		        android:text="1. The Rouge Beach Trail"
 		        android:textSize="16sp"
-		        android:paddingBottom="5dp" />
+		        android:paddingBottom="3dp" 
+		        android:paddingTop="2dp" />
+		    <View
+    			
+	            android:layout_width="155dp"
+				android:layout_height="2dip"
+				android:background="#77FFFFFF" />
 		
 		    <Button
 		        android:id="@+id/cedarpop"
@@ -62,7 +68,14 @@
 		        android:background="@drawable/activitybuttonhigh"
 		        android:text="2. Cedar Trail" 
 		        android:textSize="16sp"
-		        android:paddingBottom="5dp"/>
+		        android:paddingBottom="3dp" 
+		        android:paddingTop="2dp"/>
+		    <View
+    			
+	            android:layout_width="155dp"
+				android:layout_height="2dip"
+				android:background="#77FFFFFF" />
+		
 		
 		    <Button
 		        android:id="@+id/eaglepop"
@@ -71,7 +84,13 @@
 		        android:background="@drawable/activitybuttonhigh"
 		        android:text="3. Glen Eagles Vista Trail" 
 		        android:textSize="16sp"
-		        android:paddingBottom="5dp"/>
+		        android:paddingBottom="3dp" 
+		        android:paddingTop="2dp"/>
+		<View
+    			
+	            android:layout_width="155dp"
+				android:layout_height="2dip"
+				android:background="#77FFFFFF" />
 		
 		    <Button
 		        android:id="@+id/mastpop"
@@ -80,7 +99,13 @@
 		        android:background="@drawable/activitybuttonhigh"
 		        android:text="4. Mast Trail" 
 		        android:textSize="16sp"
-		        android:paddingBottom="5dp"/>
+		        android:paddingBottom="3dp" 
+		        android:paddingTop="2dp"/>
+		<View
+    			
+	            android:layout_width="155dp"
+				android:layout_height="2dip"
+				android:background="#77FFFFFF" />
 		
 		    <Button
 		        android:id="@+id/meanderpop"
@@ -89,7 +114,13 @@
 		        android:background="@drawable/activitybuttonhigh"
 		        android:text="5. Finch Meander Trail"
 		        android:textSize="16sp"
-		        android:paddingBottom="5dp" />
+		        android:paddingBottom="3dp" 
+		        android:paddingTop="2dp" />
+		<View
+    			
+	            android:layout_width="155dp"
+				android:layout_height="2dip"
+				android:background="#77FFFFFF" />
 		
 		    <Button
 		        android:id="@+id/orchardpop"
@@ -98,7 +129,13 @@
 		        android:background="@drawable/activitybuttonhigh"
 		        android:text="6. Orchard Trail"
 		        android:textSize="16sp"
-		        android:paddingBottom="5dp" />
+		        android:paddingBottom="3dp" 
+		        android:paddingTop="2dp" />
+		<View
+    			
+	            android:layout_width="155dp"
+				android:layout_height="2dip"
+				android:background="#77FFFFFF" />
 		
 		    <Button
 		        android:id="@+id/vistapop"
@@ -107,7 +144,13 @@
 		        android:background="@drawable/activitybuttonhigh"
 		        android:text="7. Vista Trail"
 		        android:textSize="16sp"
-		        android:paddingBottom="5dp" />
+		        android:paddingBottom="3dp" 
+		        android:paddingTop="2dp" />
+		<View
+    			
+	            android:layout_width="155dp"
+				android:layout_height="2dip"
+				android:background="#77FFFFFF" />
 		
 		    <Button
 		        android:id="@+id/woodlandpop"
@@ -116,7 +159,18 @@
 		        android:background="@drawable/activitybuttonhigh"
 		        android:text="8. Woodland Trail"
 		        android:textSize="16sp"
-		        android:paddingBottom="5dp" />
+		        android:paddingBottom="3dp" 
+		        android:paddingTop="2dp" />
+		    <View
+    			
+	            android:layout_width="155dp"
+				android:layout_height="2dip"
+				android:background="#77FFFFFF" />
+		    <View
+    			
+	            android:layout_width="155dp"
+				android:layout_height="5dip"
+				android:background="@color/actcolor" />
 	</LinearLayout>
 	    <Button
 	        android:id="@+id/guidepop"

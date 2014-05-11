@@ -66,7 +66,7 @@ public class activities extends Activity implements OnClickListener{
         pw.setBackgroundDrawable(new BitmapDrawable());
         pw.showAtLocation(layout, Gravity.TOP, 0, 0);
       
-        TouchImageView touch = (TouchImageView)layout.findViewById(R.id.imageView1);
+        GestureImageView touch = (GestureImageView)layout.findViewById(R.id.imageView1);
         TextView title = (TextView)layout.findViewById(R.id.textTitle);
         title.setTextSize(26);
         TextView abs = (TextView)layout.findViewById(R.id.abst);

@@ -74,7 +74,7 @@ public class maps extends Activity implements OnItemSelectedListener{
         
         googleMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
         Marker TP = googleMap.addMarker(new MarkerOptions().
-        position(base).title("Glenrouge Campground").icon(BitmapDescriptorFactory.fromResource(R.drawable.trcamark)));
+        position(base).title("Glen Rouge Campground").icon(BitmapDescriptorFactory.fromResource(R.drawable.trcamark)));
         try{
         MapsInitializer.initialize(this);
         LatLng blackDog = new LatLng(43.797896, -79.139111);
